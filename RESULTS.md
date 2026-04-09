@@ -1,7 +1,7 @@
 # Experimental Results: TGP Real-Time Grounding
 
 **Project**: Topic 04 - Real-Time Grounding for Small Language Models
-**Target Conference**: AAAI 2027
+**Target Conference**: AAAI 2026
 **Execution Date**: 2025-12-25
 **Total Runtime**: ~61 minutes
 **Last Updated**: 2025-12-25
@@ -1094,4 +1094,4 @@ The Temporal Grounding Pipeline (TGP) successfully demonstrates:
 
 **Prepared by**: Automated Analysis
 **Date**: 2025-12-26
-**Status**: Ready for Journal Submission (AAAI 2027 → Journal Extension)
+**Status**: Ready for Submission
