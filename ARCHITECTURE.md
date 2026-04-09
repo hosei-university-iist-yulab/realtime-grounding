@@ -1088,5 +1088,5 @@ Legend:
 
 **Last Updated**: 2026-04-09
 **Maintainer**: Franck Junior Aboya Messou
-**Contact**: franckjunioraboya.messou.3n@stu.hosei.ac.jp
+**Contact**: franckjunioraboya.messou@ieee.org
 
