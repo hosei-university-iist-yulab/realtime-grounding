@@ -1,6 +1,6 @@
 # Real-Time Sensor-Text Grounding for Edge-Deployed Small Language Models
 
-**Authors**: Franck Junior Aboya Messou, Jinhua Chen, Tong Liu, Keping Yu  
+**Authors**: Franck Junior Aboya Messou, Jinhua Chen, Tong Liu, Keping Yu, Amr Tolba  
 **Affiliation**: Hosei University, Tokyo, Japan  
 **Target**: IEEE Consumer Electronics Magazine, 2026
 
