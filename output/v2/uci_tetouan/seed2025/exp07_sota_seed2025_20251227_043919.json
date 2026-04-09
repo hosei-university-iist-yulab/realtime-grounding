@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2025,
+  "timestamp": "2025-12-27T04:33:35.688296",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2060.942679164,
+      "std_latency_ms": 358.6230709542867,
+      "p95_latency_ms": 2673.667790624313,
+      "grounding_quality": {
+        "value_accuracy": 0.72,
+        "trend_accuracy": 0.2,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.72,
+        "combined_score": 0.606
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is \"high\". The sensor data provided indicates that the current"
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 1865.0901506049559,
+      "std_latency_ms": 505.4933874629865,
+      "p95_latency_ms": 2674.5062997739296,
+      "grounding_quality": {
+        "value_accuracy": 0.82,
+        "trend_accuracy": 0.5,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.82,
+        "combined_score": 0.7510000000000001
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" for the given database query results. The \"mean\" value repre"
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2422.3373507452197,
+      "std_latency_ms": 419.3867711891306,
+      "p95_latency_ms": 2677.3092266579624,
+      "grounding_quality": {
+        "value_accuracy": 0.74,
+        "trend_accuracy": 0.0,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.74,
+        "combined_score": 0.557
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is \"low\". The energy monitor has recorded a current of"
+    }
+  ],
+  "dataset": "uci_tetouan"
+}

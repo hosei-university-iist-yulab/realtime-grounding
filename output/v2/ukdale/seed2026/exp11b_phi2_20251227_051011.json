@@ -1,0 +1,490 @@
+{
+  "experiment": "trend_features_phi2_test",
+  "timestamp": "2025-12-27T05:10:11.385708",
+  "dataset": "ukdale",
+  "n_scenarios": 25,
+  "n_trend_types": 2,
+  "baseline": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "ukdale_house_1_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 1082.3395979823545,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 734.0678430628031,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 737.1643199585378,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 735.3435039985925,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.5527880303562,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 730.7049810187891,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 732.756061013788,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 733.1173049751669,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 728.9234240306541,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 728.9735940285027,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.9378209970891,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 730.9848839649931,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 734.828729997389,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 730.7654499309137,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.375929989852,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 729.1494370438159,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.979715029709,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 728.8256119936705,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 734.5186969032511,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 732.6849889941514,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 729.4601129833609,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 729.1245970409364,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 727.5879749795422,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 729.3424219824374,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.7124840077013,
+        "enhanced_features_used": false
+      }
+    ]
+  },
+  "enhanced": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "ukdale_house_1_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.8304910762236,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 730.8791161049157,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 729.8823109595105,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 731.2963029835373,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 729.0326930815354,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 727.4006679654121,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 726.6130180796608,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 729.2304049478844,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 732.065866002813,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 729.4198300223798,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 728.4409359563142,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 729.4362880056724,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 730.6621799943969,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 730.6386699201539,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 730.3065160522237,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 730.5129630258307,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 729.5764971058816,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 729.0261109592393,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.1148199690506,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 727.8863670071587,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 727.9785110149533,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 727.8562990250066,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 729.0792950661853,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 728.0294939409941,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 727.7010109974071,
+        "enhanced_features_used": true
+      }
+    ]
+  },
+  "improvement": {
+    "absolute": 0.0,
+    "relative": 0
+  },
+  "per_type": {
+    "stable": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 21
+    },
+    "volatile": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 4
+    }
+  },
+  "config": {
+    "window_size": 100,
+    "llm_model": "microsoft/phi-2",
+    "device": "cuda:0 (via CUDA_VISIBLE_DEVICES)"
+  }
+}

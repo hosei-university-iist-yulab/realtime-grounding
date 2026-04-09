@@ -1,0 +1,940 @@
+{
+  "experiment": "trend_features_phi2_test",
+  "timestamp": "2025-12-27T05:12:39.489602",
+  "dataset": "uci_steel",
+  "n_scenarios": 50,
+  "n_trend_types": 2,
+  "baseline": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "uci_steel_sample_10003_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\nThe energy",
+        "latency_ms": 1175.3406439675018,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_4440_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 758.920160937123,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2958_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 754.2486049933359,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_8009_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 758.2012850325555,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_11206_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 751.3175490312278,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_5530_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 752.3450120352209,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_4999_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 754.806331009604,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_254_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Solution:\n\n```python",
+        "latency_ms": 753.7272189510986,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_12293_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 751.0726870968938,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_9154_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 751.0433599818498,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_11159_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 755.2002769662067,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_11714_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 753.3973170211539,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_6156_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 750.6010950310156,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_1770_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.0884699830785,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2233_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 746.5202970197424,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2603_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.0119709828869,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_13336_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 749.4345169980079,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_6580_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 748.3691179659218,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2770_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.9234649538994,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_10511_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.7071520145983,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2224_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\nBased on",
+        "latency_ms": 745.8031720016152,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_973_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.4703019466251,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_9472_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.8255689814687,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_4539_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 750.0373419607058,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_11888_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 748.478765017353,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_3383_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.4839079873636,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2834_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.0642070034519,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_11059_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.4477080134675,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_9144_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.4823300940916,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_5655_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.1450079204515,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_957_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.1776229534298,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_7109_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 744.1338109783828,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_12389_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**:\n\n1.",
+        "latency_ms": 749.4372560176998,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_8045_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 747.0000039320439,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_1925_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.1962190680206,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2661_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.0824669320136,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_8088_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.81434393581,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_5149_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.985160952434,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_8763_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.4339690264314,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_7606_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.9185410514474,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_12910_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.1223350362852,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_12362_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.7265450134873,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_13213_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.1036029485986,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_8251_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.0532289911062,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_12986_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.9203999498859,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_7328_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\nThe energy",
+        "latency_ms": 746.282497071661,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_4003_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.0365790175274,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_6868_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 746.2556170066819,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_2095_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.2141410429031,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_steel_sample_4028_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.5614590067416,
+        "enhanced_features_used": false
+      }
+    ]
+  },
+  "enhanced": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "uci_steel_sample_10003_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.5944330645725,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_4440_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.1896040691063,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2958_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.0926890121773,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_8009_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.867859990336,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_11206_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.2685879068449,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_5530_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 748.5645650885999,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_4999_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.228948071599,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_254_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Solution:\n\n```python",
+        "latency_ms": 744.424163014628,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_12293_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 745.131853967905,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_9154_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 748.3008110430092,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_11159_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.9027230506763,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_11714_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.6722270213068,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_6156_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.6583669409156,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_1770_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.0153899844736,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2233_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.3046070402488,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2603_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.104209006764,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_13336_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.4406349677593,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_6580_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.8303380040452,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2770_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.5983600337058,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_10511_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.9680090174079,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2224_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.4820849923417,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_973_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.6319770058617,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_9472_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.880972080864,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_4539_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.8328579301015,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_11888_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.497994961217,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_3383_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.4136960655451,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2834_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.995405966416,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_11059_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.3054129835218,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_9144_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**\n\n```python",
+        "latency_ms": 744.4384640548378,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_5655_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 748.1714290333912,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_957_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.8098530294374,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_7109_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.2627529855818,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_12389_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.4504440538585,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_8045_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.064712013118,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_1925_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\nThe energy",
+        "latency_ms": 744.9992669280618,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2661_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.8706410359591,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_8088_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.456595974043,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_5149_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.7989739701152,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_8763_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.0585510339588,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_7606_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.9497750019655,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_12910_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.1942059667781,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_12362_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.3303510081023,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_13213_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.147183955647,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_8251_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.6212529903278,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_12986_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.1133650029078,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_7328_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.1358230533078,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_4003_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.5008991053328,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_6868_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.1136619998142,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_2095_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.7879060162231,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_steel_sample_4028_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.6999309575185,
+        "enhanced_features_used": true
+      }
+    ]
+  },
+  "improvement": {
+    "absolute": 0.0,
+    "relative": 0
+  },
+  "per_type": {
+    "stable": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 5
+    },
+    "volatile": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 45
+    }
+  },
+  "config": {
+    "window_size": 100,
+    "llm_model": "microsoft/phi-2",
+    "device": "cuda:0 (via CUDA_VISIBLE_DEVICES)"
+  }
+}

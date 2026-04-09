@@ -1,0 +1,111 @@
+{
+  "experiment": "causal_validation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:59:14.907649",
+  "config": {
+    "n_query_types": 10,
+    "n_repeats": 3,
+    "total_queries": 30
+  },
+  "methods": {
+    "tgp": {
+      "method": "TGP (with causal validation)",
+      "valid_rate": 0.7,
+      "invalid_rate": 0.3,
+      "mean_score": 0.6333333333333333,
+      "mean_latency_ms": 5269.5651276852,
+      "std_latency_ms": 397.7672704909683,
+      "total_queries": 30,
+      "sample_responses": [
+        "The winter morning peak is driven by the following factors:\n\n1. Season: Winter, which is a season characterized by cold and snowy weather.\n2. Time: 07",
+        "Saturday is a weekend day, which means that there are fewer people in the building and fewer activities to consume energy. As a result, the consumptio",
+        "The causal relationship between temperature and energy consumption is as follows:\n\n1. Temperature affects the rate of heat transfer through the enviro",
+        "In the given context, summer and spring are the seasons, and the temperature is 32 degrees Celsius. The average temperature for summer is 32 degrees C",
+        "To explain the sudden drop in consumption, the factors that affect energy consumption could be:\n\n1. Changing weather conditions: Changes in weather pa"
+      ],
+      "details": [
+        {
+          "query": "What drives the winter morning peak?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is weekend consumption lower?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption higher today than yesterday?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is summer consumption higher than spring?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What causes the baseload at night?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause plug_load. The causal direction is plug_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: occupancy does not cause hour_of_day. The causal direction is hour_of_day -> occupancy"
+          ]
+        },
+        {
+          "query": "Why is summer consumption higher than spring?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption",
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        }
+      ]
+    },
+    "raw_llm": {
+      "method": "Raw TinyLLaMA (no fine-tuning)",
+      "valid_rate": 0.8,
+      "mean_score": 0.7,
+      "mean_latency_ms": 5344.413356591637,
+      "total_queries": 30
+    },
+    "no_validation": {
+      "method": "No Causal Validation",
+      "valid_rate": 1.0,
+      "mean_score": null,
+      "note": "Accepts all responses - cannot detect invalid causal claims"
+    }
+  },
+  "dataset": "uci_steel"
+}

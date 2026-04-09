@@ -1,0 +1,25 @@
+
+% ============================================================================
+% Table 12: Per-Dataset Results (Multi-Dataset Evaluation)
+% ============================================================================
+\begin{table*}[t]
+\centering
+\caption{Per-Dataset Evaluation: Trend detection and grounding accuracy across 5 datasets.
+All datasets are regression time-series with continuous values enabling grounding accuracy evaluation.
+Results show mean $\pm$ std across seeds.}
+\label{tab:per_dataset}
+\begin{tabular}{l l c c c c}
+\toprule
+\textbf{Dataset} & \textbf{Type} & \textbf{Samples} & \textbf{Trend Acc.} & \textbf{Value Acc.} & \textbf{Latency (ms)} \\
+\midrule
+BDG2 & Commercial Buildings & 50 & 100.0\% & 82.0$\pm$2.0\% & 491$\pm$2 \\
+UK-DALE & Residential (UK) & 5 & 100.0\% & 70.0$\pm$10.0\% & 499$\pm$4 \\
+UCI-Household & Household Power (1-min) & 50 & 100.0\% & 68.0$\pm$2.0\% & 487$\pm$2 \\
+UCI-Steel & Steel Industry (15-min) & 50 & 98.0$\pm$2.0\% & 79.0$\pm$1.0\% & 485$\pm$3 \\
+UCI-Tetouan & Tetouan City (10-min) & 50 & 2.0$\pm$2.0\% & 99.0$\pm$1.0\% & 485$\pm$3 \\
+\midrule
+\textbf{Average} & \textit{(N=5)} & -- & \textbf{80.0\%} & -- & \textbf{489} \\
+
+\bottomrule
+\end{tabular}
+\end{table*}

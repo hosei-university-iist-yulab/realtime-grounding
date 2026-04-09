@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_household",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:17:59.131853",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.875,
+      "trend_accuracy": 0.46,
+      "mean_latency_ms": 4907.334436221281,
+      "std_latency_ms": 575.2199479249209,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.9 kWh, a current reading of 0.4 kWh, and a minimum of -0.4 kWh, and a maximum of 1.8 kW",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 2.0 kWh, a current reading of 1.4 kWh, a minimum of 0.8 kWh, and a standard deviation of ",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a low energy usage. The mean consumption is 0.2 kWh, which is lower than the minimum and maximum consumption",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 1.3 kWh, a current reading of 0.1 kWh, and a minimum consumption of 0.4 kWh, a",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.5 kWh, a current reading of 1.3 kWh, and a minimum reading of -0.7 kWh, and a maximum r"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.15,
+      "trend_accuracy": 0.23,
+      "mean_latency_ms": 5027.955320042092,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the building sample_1203583.\n\nThe building sample_1203583 has a total energy consumption of 1,203,583 kWh for the year",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_635433:\n\n1. Day 1: 12:00 PM - 12:00 AM\n- Power consumption: 120 W\n- Energy consumption: 120 W\n\n2. Day 2: 12:00 PM - 12:00 ",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_186241 building.\n\nThe sample_186241 building is a 1970s-era building located in the city of New York, USA. ",
+        "Sure! The current energy consumption pattern for building sample_1351455 is as follows:\n\n1. Daytime: The building is typically in use during the daytime, with peak energy consumption during the mornin",
+        "Sure, I'd be happy to provide you with some information about the current energy consumption pattern for the sample_1967961 building.\n\nThe building is located in the city of New York, USA, and its ene"
+      ]
+    }
+  }
+}

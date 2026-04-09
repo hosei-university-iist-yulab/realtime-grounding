@@ -1,0 +1,940 @@
+{
+  "experiment": "trend_features_phi2_test",
+  "timestamp": "2025-12-27T05:12:46.708887",
+  "dataset": "uci_household",
+  "n_scenarios": 50,
+  "n_trend_types": 2,
+  "baseline": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "uci_household_sample_1203583_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 1117.0131269609556,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_635433_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 748.8882710458711,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_186241_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 749.7238939395174,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1351455_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 745.8292959490791,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1967961_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 751.33094296325,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_927763_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.2821369990706,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1883765_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 750.0023990869522,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_484587_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 749.1895239800215,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_79476_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\nBased on",
+        "latency_ms": 748.4862559940666,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1869441_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.3134520221502,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_119325_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.8603399572894,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_464596_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.1996359741315,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_812833_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\nThe trend",
+        "latency_ms": 745.027685072273,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1771418_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.6635100059211,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1655708_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.042806956917,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1739994_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 749.9416600912809,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1391011_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 747.0422900514677,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1181123_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.6755749881268,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_288921_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.3897658959031,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1984571_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.6856220010668,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_821602_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.3938889773563,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1933612_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**\n\n```python",
+        "latency_ms": 744.5089690154418,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_900506_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.9430169761181,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1425840_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.0582730341703,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_278314_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.4428340056911,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1144392_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 747.2271430306137,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1801140_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 748.004543944262,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_963001_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.2321309139952,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1173220_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.2703979797661,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1871213_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.2960609914735,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1453323_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.2165539832786,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_532080_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.3389690704644,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1316780_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.9558220794424,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_288740_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**\n\n```python",
+        "latency_ms": 745.1476859860122,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_262626_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 743.9900089520961,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1518630_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.3882859079167,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1563026_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.2090819822624,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_460418_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.1313639758155,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1498625_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 747.6477809250355,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1233361_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 745.7687079440802,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1539280_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.2785691022873,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1415641_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.1686319652945,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1844834_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.8027320206165,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1094928_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.1407100306824,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1782615_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.1564559703693,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_493596_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.4117730483413,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1991730_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.8171620015055,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1513938_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.1522589651868,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_860270_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**\n\n```python",
+        "latency_ms": 743.9949429826811,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1606958_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.0331780128181,
+        "enhanced_features_used": false
+      }
+    ]
+  },
+  "enhanced": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "uci_household_sample_1203583_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.5645980294794,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_635433_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.0723370527849,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_186241_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.5677380310372,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1351455_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.9690480241552,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1967961_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.5616080183536,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_927763_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**\n\n```python",
+        "latency_ms": 750.5907050799578,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1883765_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.1663529500365,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_484587_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.9032040098682,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_79476_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 746.0435510147363,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1869441_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.9127919496968,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_119325_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.7010900359601,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_464596_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**\n\n```python",
+        "latency_ms": 744.8120740009472,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_812833_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.0347919473425,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1771418_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.6955899940804,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1655708_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.8530609942973,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1739994_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.9717979868874,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1391011_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.1426139557734,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1181123_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.7933220062405,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_288921_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.5086499899626,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1984571_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.7569471076131,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_821602_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 745.1145430095494,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1933612_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.8849729951471,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_900506_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.3841000311077,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1425840_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 742.9683110676706,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_278314_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Use inductive logic to infer the",
+        "latency_ms": 742.9043359588832,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1144392_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\nBased on",
+        "latency_ms": 743.4089699527249,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1801140_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 744.3463609088212,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_963001_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.4001270448789,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1173220_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "---\n\n**Exercise 2:",
+        "latency_ms": 746.8944519059733,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1871213_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.4690189333633,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1453323_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.7356749325991,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_532080_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.2753189932555,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1316780_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.1131790876389,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_288740_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.5803739354014,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_262626_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.5678570074961,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1518630_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 742.7311160136014,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1563026_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.3458269806579,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_460418_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.130553048104,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1498625_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.0621370440349,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1233361_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.1993730133399,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1539280_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 746.1314540123567,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1415641_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.9271520124748,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1844834_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 750.6992749404162,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1094928_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution**:\n\n1.",
+        "latency_ms": 747.5591630209237,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1782615_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.240459986031,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_493596_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 743.6360520077869,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1991730_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.6863879449666,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1513938_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.9954780275002,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_860270_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.6787669323385,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1606958_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "<|Question|>\n1.",
+        "latency_ms": 745.9291169652715,
+        "enhanced_features_used": true
+      }
+    ]
+  },
+  "improvement": {
+    "absolute": 0.0,
+    "relative": 0
+  },
+  "per_type": {
+    "stable": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 23
+    },
+    "volatile": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 27
+    }
+  },
+  "config": {
+    "window_size": 100,
+    "llm_model": "microsoft/phi-2",
+    "device": "cuda:0 (via CUDA_VISIBLE_DEVICES)"
+  }
+}

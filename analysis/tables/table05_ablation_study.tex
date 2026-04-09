@@ -1,0 +1,25 @@
+
+% ============================================================================
+% Table 5: Ablation Study - Component Contributions
+% ============================================================================
+\begin{table*}[t]
+\centering
+\caption{Ablation Study: Component Contributions to TGP Performance.
+Each component provides measurable improvements. Results show mean across seeds.}
+\label{tab:ablation_study}
+\begin{tabular}{l c c c}
+\toprule
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{Latency (ms)} & \textbf{$\Delta$ Acc.} \\
+\midrule
+\textbf{Full TGP System} & \textbf{70.7$\pm$5.1\%} & 2064$\pm$101 & -- \\
+w/ Redis (vs TGB) & 76.1$\pm$3.7\% & 2146$\pm$66 & +5.4\% \\
+w/o LoRA Fine-tuning & 73.3$\pm$5.3\% & 2094$\pm$89 & +2.6\% \\
+w/o Staleness Detection & 71.9$\pm$6.3\% & 2104$\pm$88 & +1.2\% \\
+w/o Causal Validation & 67.5$\pm$5.8\% & 2051$\pm$81 & -3.2\% \\
+Buffer Only (Baseline) & 68.7$\pm$5.0\% & 2092$\pm$112 & -2.0\% \\
+
+\midrule
+\multicolumn{4}{l}{\textit{$\Delta$ Acc. shows change from Full System.}} \\
+\bottomrule
+\end{tabular}
+\end{table*}

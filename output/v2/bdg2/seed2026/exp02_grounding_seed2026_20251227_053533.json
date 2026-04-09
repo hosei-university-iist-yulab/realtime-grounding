@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "bdg2",
+  "seed": 2026,
+  "timestamp": "2025-12-27T05:20:43.182243",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.92,
+      "trend_accuracy": 0.53,
+      "mean_latency_ms": 5132.229380420176,
+      "std_latency_ms": 371.0024018562978,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is constant and does not change significantly over time. The mean consumption is 0.0 kWh, which is the average energy consumpti",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a low-energy usage pattern. The mean consumption is 1.8 kWh, which is lower than the minimum consumption of ",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a mean consumption of 29.0 kWh, a current reading of 28.2 kWh, and a minimum of 28.2 kWh and a maximu",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 131.5 kWh, a current reading of 131.0 kWh, and a minimum of 100.5 kWh, and a maximum of 1",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time, with a mean consumption of 3.9 kWh, a current reading of 7.4 kWh, and a minimum of -8.0 kWh, and a max"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.02,
+      "trend_accuracy": 0.06,
+      "mean_latency_ms": 3486.6374362644274,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current energy consumption pattern of Lamb_education_Aldo is not specified in the given text.",
+        "The current energy consumption pattern of the Rat_assembly_Jennie is not specified in the given text.",
+        "I do not have access to the most recent energy consumption data for the building. However, based on the information provided in the given material, it appears that the building's energy consumption pa",
+        "The current energy consumption pattern of the building is not specified in the given text.",
+        "I don't have access to the current energy consumption pattern of lamb_education_traci. However, you can find this information by searching for the website or contacting the organization directly."
+      ]
+    }
+  }
+}

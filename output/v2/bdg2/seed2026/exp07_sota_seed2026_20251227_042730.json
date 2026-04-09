@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:21:32.387370",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2253.621103633195,
+      "std_latency_ms": 392.3059132292879,
+      "p95_latency_ms": 2717.172378365649,
+      "grounding_quality": {
+        "value_accuracy": 0.88,
+        "trend_accuracy": 0.06,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.88,
+        "combined_score": 0.652
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is as follows:\n\nCurrent readings:\n- Mean: 150.9 kWh\n- Current:"
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 2127.1899925754406,
+      "std_latency_ms": 515.4982011267517,
+      "p95_latency_ms": 2707.3747245944105,
+      "grounding_quality": {
+        "value_accuracy": 0.76,
+        "trend_accuracy": 0.62,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.76,
+        "combined_score": 0.754
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" (150.7 kWh) and \"current\" (162.9 kWh)."
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2324.3529625586234,
+      "std_latency_ms": 440.48567447791737,
+      "p95_latency_ms": 2694.9295895232353,
+      "grounding_quality": {
+        "value_accuracy": 0.74,
+        "trend_accuracy": 0.02,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.74,
+        "combined_score": 0.563
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is \"unavailable\" as the energy consumption has exceede"
+    }
+  ],
+  "dataset": "bdg2"
+}

@@ -1,0 +1,25 @@
+
+% ============================================================================
+% Table 1: SOTA Comparison - Real-Time Grounding Methods
+% ============================================================================
+\begin{table}[t]
+\centering
+\caption{SOTA Comparison: Real-Time Sensor-Text Grounding Methods.
+TGP (ours) achieves superior grounding accuracy while maintaining edge-deployable latency.
+Results averaged across seeds 2025, 2026.}
+\label{tab:sota_comparison}
+\begin{tabular}{l c c c c}
+\toprule
+\textbf{Method} & \textbf{Value Acc.} & \textbf{Trend Acc.} & \textbf{Latency (ms)} & \textbf{Edge?} \\
+\midrule
+\textbf{TGP (Ours)} & \textbf{84.5\%} & \textbf{47.9\%} & 5011 & \checkmark \\
+No Grounding & 9.4\% & 15.4\% & 4298 & \checkmark \\
+Claude API & -- & -- & 0 & $\times$ \\
+SQLite + LLM & -- & -- & 2002 & $\times$ \\
+Raw TinyLLaMA (No Fine-tuning) & -- & -- & 2356 & \checkmark \\
+
+\midrule
+\multicolumn{5}{l}{\textit{Best values in \textbf{bold}. Latency in milliseconds.}} \\
+\bottomrule
+\end{tabular}
+\end{table}

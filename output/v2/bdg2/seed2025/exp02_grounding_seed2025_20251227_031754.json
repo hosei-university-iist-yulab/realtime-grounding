@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "bdg2",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:03:05.491594",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.88,
+      "trend_accuracy": 0.52,
+      "mean_latency_ms": 5093.554923253832,
+      "std_latency_ms": 457.3211235185245,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is generally consistent with the expected consumption of a typical household. The mean consumption is 22.9 kWh, which is slight",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 385.0 kWh, a current reading of 362.1 kWh, and a minimum consumption of 269",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 60.0 kWh, which is higher than the current reading of 59.9 kWh. The standard d",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 3.0 kWh, a current reading of 3.1 kWh, and a minimum consumption of 2.4 kWh, and a maximu",
+        "The current sensor readings indicate that the energy consumption pattern is generally consistent with the mean consumption of 18.0 kWh. The standard deviation indicates that there are fluctuations in "
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.01,
+      "trend_accuracy": 0.07,
+      "mean_latency_ms": 3537.186797882896,
+      "n_cases": 100,
+      "sample_responses": [
+        "As of the time of writing, there is no information available on the current energy consumption pattern of the Rat_assembly_Trudy. The information provided in the given text is only a brief summary of ",
+        "The current energy consumption pattern for the Fox_education_Elizabeth building is not specified in the given text.",
+        "I don't have access to the most recent energy consumption data for fox_public_belle. However, you can find this information by contacting the fox_public_belle project team or by visiting their website",
+        "Bear_education_Millie is a fictional character and the energy consumption pattern for the building is not explicitly mentioned in the given text. The text only describes the energy monitoring system t",
+        "I do not have access to real-time energy consumption data. However, based on the information provided in the given material, the current energy consumption pattern of fox_education_maris is not specif"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "bdg2",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:20:43.181920",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.935,
+      "trend_accuracy": 0.56,
+      "mean_latency_ms": 5072.728847906692,
+      "std_latency_ms": 456.5635351091183,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a mean consumption of 22.9 kWh and a standard deviation of 10.5 kWh. The standard deviation indicates",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 385.0 kWh, a current reading of 362.1 kWh, and a minimum consumption of 269.4 ",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 60.0 kWh, a current reading of 59.9 kWh, and a minimum consumption of 58.3 kWh, and a max",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 3.0 kWh, a current reading of 3.1 kWh, and a minimum consumption of 2.4 kWh, and a maximu",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a high energy consumption rate, with a mean consumption of 18.0 kWh, a current reading of 14.8 kWh, and a mi"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.015,
+      "trend_accuracy": 0.08,
+      "mean_latency_ms": 3644.868901988957,
+      "n_cases": 100,
+      "sample_responses": [
+        "I do not have access to the specific energy consumption patterns of the rat_assembly_trudy. However, according to the given material, the rat_assembly_trudy is a small, autonomous robot designed to pe",
+        "I do not have access to real-time energy consumption data. However, according to the given material, the current energy consumption pattern of fox_education_elizabeth is not mentioned. It is only ment",
+        "I do not have access to real-time energy consumption data for individual buildings. However, I can provide you with some general information about energy consumption patterns for buildings.\n\nenergy co",
+        "Bear_education_Millie is not available for public viewing. The current energy consumption pattern of the building is not specified in the given text.",
+        "I do not have access to the current energy consumption pattern of the fox_education_maris project. However, based on the information provided in the project description, it appears that the project ai"
+      ]
+    }
+  }
+}

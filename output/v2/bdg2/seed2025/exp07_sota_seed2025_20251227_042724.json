@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2025,
+  "timestamp": "2025-12-27T04:21:32.387338",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2152.5475945300423,
+      "std_latency_ms": 366.6167890126854,
+      "p95_latency_ms": 2673.8192825345322,
+      "grounding_quality": {
+        "value_accuracy": 0.7,
+        "trend_accuracy": 0.3,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.7,
+        "combined_score": 0.625
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is that the current readings indicate a high energy consumptio"
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 1961.055848307442,
+      "std_latency_ms": 490.2530556435824,
+      "p95_latency_ms": 2673.6042603792157,
+      "grounding_quality": {
+        "value_accuracy": 0.9,
+        "trend_accuracy": 0.42,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.9,
+        "combined_score": 0.7710000000000002
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" for the database query results. The \"mean\" indicates the ave"
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2456.044570680242,
+      "std_latency_ms": 384.0624795701051,
+      "p95_latency_ms": 2680.322925368091,
+      "grounding_quality": {
+        "value_accuracy": 0.72,
+        "trend_accuracy": 0.04,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.72,
+        "combined_score": 0.5580000000000002
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is \"low.\" The current energy consumption is lower than"
+    }
+  ],
+  "dataset": "bdg2"
+}

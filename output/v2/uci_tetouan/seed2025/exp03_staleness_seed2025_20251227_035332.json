@@ -1,0 +1,58 @@
+{
+  "experiment": "staleness_detection",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:53:19.781172",
+  "n_samples": 500,
+  "methods": {
+    "time_threshold_detector": {
+      "accuracy": 0.99,
+      "precision": 1.0,
+      "recall": 0.9666666666666667,
+      "f1": 0.983050847457627,
+      "tp": 145,
+      "fp": 0,
+      "fn": 5,
+      "tn": 350,
+      "mean_latency_ms": 0.0017942364793270826,
+      "n_samples": 500,
+      "method": "time_threshold"
+    },
+    "time_threshold_300s": {
+      "precision": 1.0,
+      "recall": 0.92,
+      "f1": 0.9583333333333334,
+      "threshold_seconds": 300
+    },
+    "time_threshold_600s": {
+      "precision": 1.0,
+      "recall": 0.84,
+      "f1": 0.9130434782608696,
+      "threshold_seconds": 600
+    },
+    "value_threshold_20pct": {
+      "precision": 1.0,
+      "recall": 0.64,
+      "f1": 0.7804878048780487,
+      "threshold_percent": 0.2
+    },
+    "value_threshold_30pct": {
+      "precision": 1.0,
+      "recall": 0.64,
+      "f1": 0.7804878048780487,
+      "threshold_percent": 0.3
+    },
+    "embedding_detector_deprecated": {
+      "accuracy": 0.7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 150,
+      "tn": 350,
+      "mean_latency_ms": 4.648295327089727,
+      "n_samples": 500
+    }
+  },
+  "dataset": "uci_tetouan"
+}

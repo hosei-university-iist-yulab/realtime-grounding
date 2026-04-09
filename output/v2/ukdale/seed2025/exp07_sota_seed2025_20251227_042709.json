@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2025,
+  "timestamp": "2025-12-27T04:21:32.387507",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2026.404937945772,
+      "std_latency_ms": 372.9377107489252,
+      "p95_latency_ms": 2660.2271322568413,
+      "grounding_quality": {
+        "value_accuracy": 0.74,
+        "trend_accuracy": 0.24,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.74,
+        "combined_score": 0.629
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is high. The mean energy consumption is 147.3 kWh, while the c"
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 1860.7018548832275,
+      "std_latency_ms": 477.49118831792947,
+      "p95_latency_ms": 2674.649933015462,
+      "grounding_quality": {
+        "value_accuracy": 0.88,
+        "trend_accuracy": 0.48,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.88,
+        "combined_score": 0.7780000000000001
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" (149.9 kWh) and \"current\" (138.1 kWh)."
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2381.205199896358,
+      "std_latency_ms": 451.14661352611375,
+      "p95_latency_ms": 2679.3467236566357,
+      "grounding_quality": {
+        "value_accuracy": 0.68,
+        "trend_accuracy": 0.02,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.68,
+        "combined_score": 0.53
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is \"low energy.\" The energy monitor has recorded a tot"
+    }
+  ],
+  "dataset": "ukdale"
+}

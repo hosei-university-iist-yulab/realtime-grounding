@@ -1,0 +1,419 @@
+{
+  "experiment": "trend_features_finetuned",
+  "timestamp": "2025-12-27T05:30:25.525619",
+  "n_windows": 50,
+  "accuracy": 1.0,
+  "avg_latency_ms": 487.72348616970703,
+  "per_type": {
+    "stable": {
+      "accuracy": 1.0,
+      "n_samples": 49
+    },
+    "volatile": {
+      "accuracy": 1.0,
+      "n_samples": 1
+    }
+  },
+  "results": [
+    {
+      "building_id": "Panther_parking_Lorriane",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 770.9530430147424
+    },
+    {
+      "building_id": "Panther_parking_Lorriane",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 498.11533896718174
+    },
+    {
+      "building_id": "Panther_parking_Lorriane",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 500.5447670118883
+    },
+    {
+      "building_id": "Panther_lodging_Cora",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 500.32673601526767
+    },
+    {
+      "building_id": "Panther_lodging_Cora",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 453.0284219654277
+    },
+    {
+      "building_id": "Panther_lodging_Cora",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 453.05870089214295
+    },
+    {
+      "building_id": "Panther_office_Hannah",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nComment:",
+      "latency_ms": 499.699737993069
+    },
+    {
+      "building_id": "Panther_office_Hannah",
+      "expected": "volatile",
+      "predicted": "volatile",
+      "correct": true,
+      "response": "volatile\n\nAnswer: volatile",
+      "latency_ms": 498.93983907531947
+    },
+    {
+      "building_id": "Panther_office_Hannah",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.78208404313773
+    },
+    {
+      "building_id": "Panther_lodging_Hattie",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 499.89039299543947
+    },
+    {
+      "building_id": "Panther_lodging_Hattie",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 452.13821006473154
+    },
+    {
+      "building_id": "Panther_lodging_Hattie",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is: stable",
+      "latency_ms": 496.7415470164269
+    },
+    {
+      "building_id": "Panther_education_Teofila",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is: stable",
+      "latency_ms": 497.79501103330404
+    },
+    {
+      "building_id": "Panther_education_Teofila",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.17866303399205
+    },
+    {
+      "building_id": "Panther_education_Teofila",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 496.6485350159928
+    },
+    {
+      "building_id": "Panther_education_Jerome",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.2705009859055
+    },
+    {
+      "building_id": "Panther_education_Jerome",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is: stable",
+      "latency_ms": 496.9348809681833
+    },
+    {
+      "building_id": "Panther_education_Jerome",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.59908299986273
+    },
+    {
+      "building_id": "Panther_retail_Felix",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 450.1845829654485
+    },
+    {
+      "building_id": "Panther_retail_Felix",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 450.43790293857455
+    },
+    {
+      "building_id": "Panther_retail_Felix",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 496.7759990831837
+    },
+    {
+      "building_id": "Panther_parking_Asia",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 498.53657907806337
+    },
+    {
+      "building_id": "Panther_parking_Asia",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nComment:",
+      "latency_ms": 496.52681802399457
+    },
+    {
+      "building_id": "Panther_parking_Asia",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.7568610338494
+    },
+    {
+      "building_id": "Panther_education_Misty",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 496.22861691750586
+    },
+    {
+      "building_id": "Panther_education_Misty",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 449.2442230693996
+    },
+    {
+      "building_id": "Panther_education_Misty",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.94619297701865
+    },
+    {
+      "building_id": "Panther_retail_Gilbert",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"volatile",
+      "latency_ms": 497.1227099886164
+    },
+    {
+      "building_id": "Panther_retail_Gilbert",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.4415539773181
+    },
+    {
+      "building_id": "Panther_retail_Gilbert",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.5913229873404
+    },
+    {
+      "building_id": "Panther_office_Catherine",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.46661609970033
+    },
+    {
+      "building_id": "Panther_office_Catherine",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.0526770921424
+    },
+    {
+      "building_id": "Panther_office_Catherine",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.415091028437
+    },
+    {
+      "building_id": "Panther_education_Tina",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.0261560520157
+    },
+    {
+      "building_id": "Panther_education_Tina",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nComment:",
+      "latency_ms": 496.1025790544227
+    },
+    {
+      "building_id": "Panther_education_Tina",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nComment:",
+      "latency_ms": 498.00807901192456
+    },
+    {
+      "building_id": "Panther_education_Janis",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 496.08089798130095
+    },
+    {
+      "building_id": "Panther_education_Janis",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 450.00392897054553
+    },
+    {
+      "building_id": "Panther_education_Janis",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nQuestion:",
+      "latency_ms": 496.6465230099857
+    },
+    {
+      "building_id": "Panther_office_Patti",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is: stable",
+      "latency_ms": 498.6783410422504
+    },
+    {
+      "building_id": "Panther_office_Patti",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.2151289694011
+    },
+    {
+      "building_id": "Panther_office_Patti",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 449.32554906699806
+    },
+    {
+      "building_id": "Panther_retail_Romeo",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.04540497716516
+    },
+    {
+      "building_id": "Panther_retail_Romeo",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.2044540345669
+    },
+    {
+      "building_id": "Panther_retail_Romeo",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nComment:",
+      "latency_ms": 498.03977098781615
+    },
+    {
+      "building_id": "Panther_office_Lauretta",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.30422301217914
+    },
+    {
+      "building_id": "Panther_office_Lauretta",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable",
+      "latency_ms": 448.2173318974674
+    },
+    {
+      "building_id": "Panther_office_Lauretta",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 497.2716810880229
+    },
+    {
+      "building_id": "Panther_parking_Alaina",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer: stable\n\nStatist",
+      "latency_ms": 496.14757602103055
+    },
+    {
+      "building_id": "Panther_parking_Alaina",
+      "expected": "stable",
+      "predicted": "stable",
+      "correct": true,
+      "response": "stable\n\nAnswer is wrong: \"random\"",
+      "latency_ms": 496.4834429556504
+    }
+  ]
+}

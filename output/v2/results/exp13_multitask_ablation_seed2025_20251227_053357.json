@@ -1,0 +1,58 @@
+{
+  "experiment": "multitask_ablation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:33:57.710728",
+  "models": {
+    "base": {
+      "trend": {
+        "accuracy": 0.03333333333333333,
+        "avg_latency_ms": 354.55787349880364,
+        "n_samples": 30
+      },
+      "causal": {
+        "accuracy": 0.6,
+        "avg_latency_ms": 3219.749672396574,
+        "n_samples": 10,
+        "breakdown": {
+          "correct": 6,
+          "reversed": 0,
+          "ambiguous": 4
+        }
+      }
+    },
+    "trend_only": {
+      "trend": {
+        "accuracy": 1.0,
+        "avg_latency_ms": 497.8387350759779,
+        "n_samples": 30
+      },
+      "causal": {
+        "accuracy": 0.5,
+        "avg_latency_ms": 4848.960162594449,
+        "n_samples": 10,
+        "breakdown": {
+          "correct": 5,
+          "reversed": 0,
+          "ambiguous": 5
+        }
+      }
+    },
+    "multitask": {
+      "trend": {
+        "accuracy": 1.0,
+        "avg_latency_ms": 493.8811748327377,
+        "n_samples": 30
+      },
+      "causal": {
+        "accuracy": 0.8,
+        "avg_latency_ms": 4825.548177422024,
+        "n_samples": 10,
+        "breakdown": {
+          "correct": 8,
+          "reversed": 0,
+          "ambiguous": 2
+        }
+      }
+    }
+  }
+}

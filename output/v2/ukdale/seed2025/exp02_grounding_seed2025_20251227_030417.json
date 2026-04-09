@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "ukdale",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:03:05.491014",
+  "n_cases": 5,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 1.0,
+      "trend_accuracy": 0.4,
+      "mean_latency_ms": 4563.478795206174,
+      "std_latency_ms": 591.3074760860147,
+      "n_cases": 5,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.6 kWh, a current reading of 0.3 kWh, and a minimum of -2.0 kWh and a maximum of 3.2 kWh",
+        "The current sensor readings indicate that the energy consumption pattern is steady and consistent, with a mean consumption of 0.2 kWh, a current reading of 0.2 kWh, and a minimum of -0.0 kWh and a max",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.5 kWh, a current reading of 0.5 kWh, and a standard deviation of 0.0 kWh. This indicate",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a steady increase in energy consumption over time. The mean consumption is 1.0 kWh, which is higher than the",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.3 kWh, a current reading of 0.2 kWh, a minimum consumption of 0.0 kWh, and a standard d"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.2,
+      "trend_accuracy": 0.2,
+      "mean_latency_ms": 4515.081922989339,
+      "n_cases": 5,
+      "sample_responses": [
+        "I don't have access to the specific energy consumption data of the building. However, in general, the current energy consumption pattern of a building can be determined by analyzing the energy consump",
+        "The current energy consumption pattern for house_4 is not specified in the given text.",
+        "Sure! Here's a breakdown of the current energy consumption pattern for house_1:\n\n1. Daytime: The average energy consumption for daytime is 100 kWh per day.\n\n2. Nighttime: The average energy consumptio",
+        "I do not have access to the specific energy consumption pattern of the building you are referring to. However, in general, the energy consumption pattern of a building can be estimated based on the fo",
+        "I do not have access to the specific energy consumption data of the building you are referring to. However, in general, the current energy consumption pattern of a building can be estimated based on t"
+      ]
+    }
+  }
+}

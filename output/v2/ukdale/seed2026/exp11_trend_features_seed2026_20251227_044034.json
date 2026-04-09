@@ -1,0 +1,490 @@
+{
+  "experiment": "trend_features_evaluation_real_data",
+  "timestamp": "2025-12-27T04:40:34.032427",
+  "dataset": "ukdale",
+  "n_scenarios": 25,
+  "n_trend_types": 2,
+  "baseline": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "ukdale_house_1_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 826.4598769601434,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w1",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 542.914854013361,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w2",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 542.4471639562398,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 542.8729680133983,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_1_w4",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 547.2312059719115,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 542.3449260415509,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w1",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 539.2710840096697,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w2",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 543.5590719571337,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w3",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 541.3243350340053,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_2_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 543.2318940293044,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 539.000440039672,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w1",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 539.9957180488855,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w2",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 539.2438829876482,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w3",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 539.9974690517411,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_3_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.0664610313252,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 542.5416349899024,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.5846280045807,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.3098870990798,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.8056939486414,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_4_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 538.9159469632432,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 541.1840151064098,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w1",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 540.0684219785035,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.6453290013596,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 538.9007750200108,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "ukdale_house_5_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 538.9265220146626,
+        "enhanced_features_used": false
+      }
+    ]
+  },
+  "enhanced": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "ukdale_house_1_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 539.365123026073,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w1",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 539.4220768939704,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.2406859900802,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w3",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 544.3986849859357,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_1_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.525690022856,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 540.969799971208,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.4030049210414,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.112933027558,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.0784279918298,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_2_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 538.1942560197785,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.3318610042334,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w1",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 539.0850090188906,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.4246699763462,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 538.8211379759014,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_3_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.1883149752393,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 539.0071730362251,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.7537749959156,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w2",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 540.5400419840589,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.1564210876822,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_4_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 540.0866869604215,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 539.1121309949085,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 543.9279080601409,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.4222789909691,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w3",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 541.7924299836159,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "ukdale_house_5_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 539.2531430115923,
+        "enhanced_features_used": true
+      }
+    ]
+  },
+  "improvement": {
+    "absolute": 0.0,
+    "relative": 0
+  },
+  "per_type": {
+    "stable": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 21
+    },
+    "volatile": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 4
+    }
+  },
+  "config": {
+    "window_size": 100,
+    "llm_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "device": "cuda:0 (via CUDA_VISIBLE_DEVICES)"
+  }
+}

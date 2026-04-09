@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_tetouan",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:35:16.326950",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.55,
+      "trend_accuracy": 0.25,
+      "mean_latency_ms": 5214.073468837887,
+      "std_latency_ms": 265.34285536836416,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a high number of high-energy consumption periods and a low number of low-energy consumption periods. T",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a high peak demand in the morning and a low peak demand in the evening. The mean consumption is relati",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a high average consumption of 30,034.0 kWh, a high minimum consumption of 19,376.6 kWh, a high standa",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 33224.7 kWh, which is higher than the previous reading of 33224.7 kWh. The cur",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with high and low consumption periods. The mean consumption is 33,052.6 kWh, which is significantly higher "
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.165,
+      "trend_accuracy": 0.24,
+      "mean_latency_ms": 5005.432552822167,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure, I'd be happy to provide you with the current energy consumption pattern of sample_38824.\n\nThe energy consumption pattern for sample_38824 is as follows:\n\n1. Day 1: 11.3 kWh\n2. Day 2: 10.4 kWh\n3.",
+        "Sure! Here's the current energy consumption pattern for sample_48397:\n\n| Time (UTC) | Energy (kWh) | Energy (kWh/h) |\n|-------------|-------------|--------------|\n| 00:00:00 | 13.1 | 13.1 |\n| 00:01:00",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_47307 building.\n\nThe sample_47307 building is located in the city of New York, USA, and is part of the NYC ",
+        "Sure! The current energy consumption pattern for building sample_1538 is not specified in the given text. However, based on the information provided in the text, it can be inferred that the building i",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_13709:\n\n1. Day 1:\n- Power consumption: 12.5 kW\n- Energy consumption: 12.5 kW\n- Energy usage: 12.5 kW\n\n2. Day 2:\n- Power co"
+      ]
+    }
+  }
+}

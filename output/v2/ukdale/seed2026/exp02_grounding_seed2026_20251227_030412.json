@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "ukdale",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:03:05.491619",
+  "n_cases": 5,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 1.0,
+      "trend_accuracy": 0.6,
+      "mean_latency_ms": 4616.307895397767,
+      "std_latency_ms": 831.357209489283,
+      "n_cases": 5,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a low-energy usage pattern. The mean consumption value is 0.6 kWh, which is lower than the minimum and maxim",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.2 kWh, a current reading of 0.2 kWh, and a minimum consumption of 0.2 kWh, and a standa",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 1.0 kWh and a current reading of 0.4 kWh. The standard deviation is also 1.0 kWh, indicat",
+        "The current sensor readings indicate that the energy consumption pattern is stable and consistent with the expected consumption of a typical household. The mean consumption is 0.7 kWh, which is within",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.6 kWh, a current reading of 0.3 kWh, and a standard deviation of 0.2 kWh. This indicate"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.0,
+      "trend_accuracy": 0.0,
+      "mean_latency_ms": 3612.652449402958,
+      "n_cases": 5,
+      "sample_responses": [
+        "The current energy consumption pattern for house_5 is not specified in the given text.",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the building house_1.\n\nThe building house_1 has been designed to be energy-efficient, and its energy consumption patte",
+        "The current energy consumption pattern of house_4 is not specified in the given text.",
+        "Sure! Here's a breakdown of the current energy consumption pattern for the building house_3:\n\n1. Daytime: The building is designed to use energy during the daytime, when the sun is shining. The buildi",
+        "I don't have access to the specific energy consumption data of the house_2. However, in general, the energy consumption pattern of a house can be estimated based on the following factors:\n\n1. Number o"
+      ]
+    }
+  }
+}

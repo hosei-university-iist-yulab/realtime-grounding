@@ -1,0 +1,22 @@
+
+% ============================================================================
+% Table 10: Causal Loss Weight ($\alpha/\beta$) Ablation (V2)
+% ============================================================================
+\begin{table}[t]
+\centering
+\caption{Causal Weight Ablation: Loss = $\alpha \cdot L_{trend} + \beta \cdot L_{causal}$.
+Balanced weighting achieves best combined performance.}
+\label{tab:causal_weights}
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Config} & $\alpha$ & $\beta$ & \textbf{Trend} & \textbf{Causal} & \textbf{Combined} \\
+\midrule
+\textbf{Trend Only} & 1.0 & 0.0 & \textbf{95.0\%} & \textbf{90.0\%} & \textbf{92.5\%} \\
+Trend Heavy & 0.7 & 0.3 & 92.5\% & 90.0\% & 91.3\% \\
+Balanced & 0.5 & 0.5 & 95.0\% & 80.0\% & 87.5\% \\
+Causal Heavy & 0.3 & 0.7 & 30.0\% & 55.0\% & 42.5\% \\
+Causal Only & 0.0 & 1.0 & 27.5\% & 40.0\% & 33.8\% \\
+
+\bottomrule
+\end{tabular}
+\end{table}

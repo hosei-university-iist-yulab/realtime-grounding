@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "ukdale",
+  "seed": 2026,
+  "timestamp": "2025-12-27T05:20:43.182450",
+  "n_cases": 5,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 1.0,
+      "trend_accuracy": 0.6,
+      "mean_latency_ms": 4972.664966969751,
+      "std_latency_ms": 427.1974933229289,
+      "n_cases": 5,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.6 kWh and a standard deviation of 0.0 kWh. The current reading of 0.6 kWh is within the",
+        "The current sensor readings indicate that the energy consumption pattern is constant and does not change significantly over time. The mean consumption is 0.2 kWh, which is within the acceptable range ",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a mean consumption of 1.0 kWh, a current reading of 0.4 kWh, and a minimum reading of -1.5 kWh, and a",
+        "The current sensor readings indicate that the energy consumption pattern is stable with a mean consumption of 0.7 kWh, a current reading of 0.7 kWh, and a minimum consumption of 0.4 kWh, and a maximum",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 0.6 kWh, a current reading of 0.3 kWh, and a minimum consumption of 0.1 kWh. T"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.1,
+      "trend_accuracy": 0.0,
+      "mean_latency_ms": 4431.425285199657,
+      "n_cases": 5,
+      "sample_responses": [
+        "Yes, I can provide you with the current energy consumption pattern of the building house_5.\n\nCurrent Energy Consumption Pattern:\n\n1. Daytime:\n- The building uses natural light to provide energy for li",
+        "Response:\n\nSure! Here's the current energy consumption pattern for house_1:\n\n1. Daytime: The average energy consumption for a day in the summer is around 100 kWh.\n\n2. Nighttime: The average energy con",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for house_4.\n\nHouse_4 has a total energy consumption of 1,000 kWh per month. The energy consumption pattern for the month ",
+        "The current energy consumption pattern for house_3 is not specified in the given text.",
+        "I do not have access to the specific energy consumption patterns of the building you are referring to. However, generally, the current energy consumption pattern of a building can be estimated based o"
+      ]
+    }
+  }
+}

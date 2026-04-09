@@ -1,0 +1,54 @@
+{
+  "experiment": "causal_weight_ablation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:38:16.972577",
+  "n_trend_cases": 20,
+  "n_causal_cases": 10,
+  "configurations": {
+    "trend_only": {
+      "alpha": 1.0,
+      "beta": 0.0,
+      "trend_accuracy": 0.95,
+      "causal_accuracy": 0.8,
+      "combined": 0.875,
+      "trend_latency_ms": 513.4293866110966,
+      "causal_latency_ms": 3740.034404792823
+    },
+    "trend_heavy": {
+      "alpha": 0.7,
+      "beta": 0.3,
+      "trend_accuracy": 0.95,
+      "causal_accuracy": 0.9,
+      "combined": 0.925,
+      "trend_latency_ms": 495.44319475535303,
+      "causal_latency_ms": 3607.6202263124287
+    },
+    "balanced": {
+      "alpha": 0.5,
+      "beta": 0.5,
+      "trend_accuracy": 0.95,
+      "causal_accuracy": 0.8,
+      "combined": 0.875,
+      "trend_latency_ms": 492.1768277650699,
+      "causal_latency_ms": 2934.2484743101522
+    },
+    "causal_heavy": {
+      "alpha": 0.3,
+      "beta": 0.7,
+      "trend_accuracy": 0.25,
+      "causal_accuracy": 0.4,
+      "combined": 0.325,
+      "trend_latency_ms": 491.82613124139607,
+      "causal_latency_ms": 3798.3615256031044
+    },
+    "causal_only": {
+      "alpha": 0.0,
+      "beta": 1.0,
+      "trend_accuracy": 0.25,
+      "causal_accuracy": 0.4,
+      "combined": 0.325,
+      "trend_latency_ms": 492.17851175926626,
+      "causal_latency_ms": 3651.0037958156317
+    }
+  }
+}

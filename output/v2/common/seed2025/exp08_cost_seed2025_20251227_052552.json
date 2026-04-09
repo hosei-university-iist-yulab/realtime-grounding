@@ -1,0 +1,65 @@
+{
+  "experiment": "computational_cost",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:24:19.831257",
+  "gpu_info": {
+    "device_name": "NVIDIA GeForce RTX 3090",
+    "total_memory_gb": 25.323503616,
+    "baseline_allocated_gb": 0.0,
+    "baseline_reserved_gb": 0.0,
+    "baseline_power_watts": 22.6
+  },
+  "components": {
+    "buffer": {
+      "push": {
+        "mean_latency_ms": 0.0027868745382875204,
+        "std_latency_ms": 0.009407363125436845,
+        "peak_memory_gb": 0.0,
+        "n_operations": 500
+      },
+      "get": {
+        "mean_latency_ms": 0.003256011987105012,
+        "std_latency_ms": 0.0003217386645054318,
+        "peak_memory_gb": 0.0,
+        "n_operations": 500
+      }
+    },
+    "staleness": {
+      "mean_latency_ms": 0.010384377092123032,
+      "std_latency_ms": 0.013885377277819196,
+      "p95_latency_ms": 0.04927502595819533,
+      "peak_memory_gb": 0.0,
+      "avg_power_watts": 22.814,
+      "n_operations": 100
+    },
+    "inference": {
+      "model": "TinyLLaMA-1.1B",
+      "quantization": "4-bit (bitsandbytes)",
+      "mean_latency_ms": 2560.9541173131825,
+      "std_latency_ms": 469.0627110303823,
+      "p95_latency_ms": 2852.0974072744134,
+      "peak_memory_gb": 1.091633152,
+      "avg_power_watts": 22.439,
+      "tokens_per_second": 16.621409332911192,
+      "avg_tokens_per_response": 42.56666666666667,
+      "n_queries": 30
+    },
+    "training": {
+      "model": "TinyLLaMA-1.1B + LoRA",
+      "source": "actual_training_logs",
+      "dataset_size": "unknown",
+      "estimated_power_watts": 280,
+      "estimated_time_hours": 0.5,
+      "estimated_co2_kg": 0.058800000000000005,
+      "co2_calculation": "280W * 0.5h / 1000 * 0.42 kg/kWh"
+    }
+  },
+  "summary": {
+    "total_query_latency_ms": 2560.9677577022617,
+    "peak_memory_gb": 1.091633152,
+    "avg_power_watts": 22.439,
+    "co2_per_hour_kg": 0.00942438,
+    "queries_per_second": 0.39047738769550727,
+    "training_co2_kg": 0.058800000000000005
+  }
+}

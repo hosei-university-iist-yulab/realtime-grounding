@@ -1,0 +1,20 @@
+
+% ============================================================================
+% Table 9: Multi-Task vs Single-Task Ablation (V2)
+% ============================================================================
+\begin{table}[t]
+\centering
+\caption{Multi-Task Learning Ablation: Comparison of joint vs single-task training.
+Multi-task achieves best combined performance.}
+\label{tab:multitask_ablation}
+\begin{tabular}{l c c c}
+\toprule
+\textbf{Training Mode} & \textbf{Trend Acc.} & \textbf{Causal Acc.} & \textbf{Combined} \\
+\midrule
+\textbf{Multi-Task (Ours)} & \textbf{100.0\%} & \textbf{85.0$\pm$5.0\%} & \textbf{92.5\%} \\
+Trend Only & 100.0\% & 45.0$\pm$5.0\% & 72.5\% \\
+Base (No Fine-tuning) & 3.3\% & 60.0\% & 31.7\% \\
+
+\bottomrule
+\end{tabular}
+\end{table}

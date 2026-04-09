@@ -1,0 +1,21 @@
+
+% ============================================================================
+% Table 2: Buffer Latency Comparison
+% ============================================================================
+\begin{table}[t]
+\centering
+\caption{Buffer Access Latency Comparison. Our Temporal Grounding Buffer (TGB)
+achieves significant speedup over Redis with O(1) operations.}
+\label{tab:latency_comparison}
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Method} & \textbf{Mean} & \textbf{Std} & \textbf{P95} & \textbf{P99} & \textbf{Speedup} \\
+ & (ms) & (ms) & (ms) & (ms) & \\
+\midrule
+\textbf{TGB (Ours)} & \textbf{0.085} & 0.022 & 0.126 & 0.177 & \textbf{10.4$\times$} \\
+Redis Baseline & 0.883 & 0.343 & 1.497 & 1.890 & 1.0$\times$ \\
+Local LLM & 1205.8 & 368.9 & 1684.4 & -- & -- \\
+
+\bottomrule
+\end{tabular}
+\end{table}

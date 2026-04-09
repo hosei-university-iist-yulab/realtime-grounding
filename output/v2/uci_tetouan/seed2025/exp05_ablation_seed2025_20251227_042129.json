@@ -1,0 +1,207 @@
+{
+  "experiment": "ablation_study",
+  "seed": 2025,
+  "timestamp": "2025-12-27T04:16:09.782558",
+  "configs": {
+    "full_system": {
+      "latency_ms": 2052.834640943911,
+      "latency_std_ms": 408.26076254865313,
+      "p95_latency_ms": 2713.810974144144,
+      "accuracy": 0.7224999999999999,
+      "grounding_quality": {
+        "value_accuracy": 0.85,
+        "trend_accuracy": 0.35,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.85,
+        "combined_score": 0.7224999999999999
+      },
+      "staleness_f1": 0.0,
+      "causal_valid_rate": 1.0,
+      "n_queries": 20,
+      "config": {
+        "buffer": "temporal",
+        "lora": true,
+        "staleness": true,
+        "causal": true,
+        "description": "Complete TGP system (Novel TemporalGroundingBuffer)"
+      }
+    },
+    "redis_baseline": {
+      "latency_ms": 2091.0125148308,
+      "latency_std_ms": 343.59146334157015,
+      "p95_latency_ms": 2739.5303921424784,
+      "accuracy": 0.7375,
+      "grounding_quality": {
+        "value_accuracy": 0.85,
+        "trend_accuracy": 0.4,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.85,
+        "combined_score": 0.7375
+      },
+      "staleness_f1": 0.0,
+      "causal_valid_rate": 1.0,
+      "n_queries": 20,
+      "config": {
+        "buffer": "redis",
+        "lora": true,
+        "staleness": true,
+        "causal": true,
+        "description": "TGP with Redis buffer (baseline for comparison)"
+      }
+    },
+    "no_buffer": {
+      "latency_ms": 2059.0888816397637,
+      "latency_std_ms": 404.25606229375836,
+      "p95_latency_ms": 2723.5562692396343,
+      "accuracy": 0.74,
+      "grounding_quality": {
+        "value_accuracy": 0.8,
+        "trend_accuracy": 0.5,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.8,
+        "combined_score": 0.74
+      },
+      "staleness_f1": 0.0,
+      "causal_valid_rate": 1.0,
+      "n_queries": 20,
+      "config": {
+        "buffer": "memory",
+        "lora": true,
+        "staleness": true,
+        "causal": true,
+        "description": "Without any buffer (in-memory dict)"
+      }
+    },
+    "no_lora": {
+      "latency_ms": 2078.7588644539937,
+      "latency_std_ms": 447.9682674655659,
+      "p95_latency_ms": 2759.5097471552435,
+      "accuracy": 0.7525,
+      "grounding_quality": {
+        "value_accuracy": 0.85,
+        "trend_accuracy": 0.45,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.85,
+        "combined_score": 0.7525
+      },
+      "staleness_f1": 0.0,
+      "causal_valid_rate": 1.0,
+      "n_queries": 20,
+      "config": {
+        "buffer": "redis",
+        "lora": false,
+        "staleness": true,
+        "causal": true,
+        "description": "Without LoRA fine-tuning"
+      }
+    },
+    "no_staleness": {
+      "latency_ms": 2153.1259651004802,
+      "latency_std_ms": 289.21579849989683,
+      "p95_latency_ms": 2749.1624520276673,
+      "accuracy": 0.7324999999999999,
+      "grounding_quality": {
+        "value_accuracy": 0.95,
+        "trend_accuracy": 0.2,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.95,
+        "combined_score": 0.7324999999999999
+      },
+      "staleness_f1": null,
+      "causal_valid_rate": 1.0,
+      "n_queries": 20,
+      "config": {
+        "buffer": "redis",
+        "lora": true,
+        "staleness": false,
+        "causal": true,
+        "description": "Without staleness detection"
+      }
+    },
+    "no_causal": {
+      "latency_ms": 2133.575858664699,
+      "latency_std_ms": 288.33693415487465,
+      "p95_latency_ms": 2718.129188462626,
+      "accuracy": 0.7775,
+      "grounding_quality": {
+        "value_accuracy": 0.95,
+        "trend_accuracy": 0.35,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.95,
+        "combined_score": 0.7775
+      },
+      "staleness_f1": 0.0,
+      "causal_valid_rate": null,
+      "n_queries": 20,
+      "config": {
+        "buffer": "redis",
+        "lora": true,
+        "staleness": true,
+        "causal": false,
+        "description": "Without causal validation"
+      }
+    },
+    "buffer_only": {
+      "latency_ms": 2159.177599148825,
+      "latency_std_ms": 357.88117833868665,
+      "p95_latency_ms": 2764.567503379658,
+      "accuracy": 0.7075,
+      "grounding_quality": {
+        "value_accuracy": 0.85,
+        "trend_accuracy": 0.3,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.85,
+        "combined_score": 0.7075
+      },
+      "staleness_f1": null,
+      "causal_valid_rate": null,
+      "n_queries": 20,
+      "config": {
+        "buffer": "redis",
+        "lora": false,
+        "staleness": false,
+        "causal": false,
+        "description": "Only Redis buffer, raw LLM"
+      }
+    }
+  },
+  "dataset": "uci_tetouan",
+  "contributions": {
+    "redis_baseline": {
+      "latency_impact_ms": 38.17787388688885,
+      "latency_impact_pct": 1.859763720147198,
+      "accuracy_impact": -0.015000000000000124,
+      "accuracy_impact_pct": -2.076124567474066
+    },
+    "no_buffer": {
+      "latency_impact_ms": 6.254240695852786,
+      "latency_impact_pct": 0.30466363783577977,
+      "accuracy_impact": -0.01750000000000007,
+      "accuracy_impact_pct": -2.422145328719733
+    },
+    "no_lora": {
+      "latency_impact_ms": 25.92422351008281,
+      "latency_impact_pct": 1.2628500607415039,
+      "accuracy_impact": -0.030000000000000027,
+      "accuracy_impact_pct": -4.152249134948101
+    },
+    "no_staleness": {
+      "latency_impact_ms": 100.29132415656932,
+      "latency_impact_pct": 4.885504275709928,
+      "accuracy_impact": -0.010000000000000009,
+      "accuracy_impact_pct": -1.3840830449827004
+    },
+    "no_causal": {
+      "latency_impact_ms": 80.74121772078797,
+      "latency_impact_pct": 3.933157406368711,
+      "accuracy_impact": -0.05500000000000005,
+      "accuracy_impact_pct": -7.612456747404852
+    },
+    "buffer_only": {
+      "latency_impact_ms": 106.34295820491388,
+      "latency_impact_pct": 5.180298309659101,
+      "accuracy_impact": 0.014999999999999902,
+      "accuracy_impact_pct": 2.076124567474035
+    }
+  }
+}

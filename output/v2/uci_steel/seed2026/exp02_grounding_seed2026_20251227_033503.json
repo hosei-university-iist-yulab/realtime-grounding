@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_steel",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:17:59.131842",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.695,
+      "trend_accuracy": 0.59,
+      "mean_latency_ms": 5104.440823373152,
+      "std_latency_ms": 445.60049433699976,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 28.2 kWh, a current reading of 32.5 kWh, a minimum reading of -36.8 kWh, an",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 3.0 kWh, a current reading of 2.9 kWh, and a minimum of 2.5 kWh, and a maximum",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a wide range of consumption values. The mean consumption is 24.6 kWh, which is significantly higher th",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a large range of values. The minimum and maximum values are -103.1 kWh and 133.8 kWh, respectively, in",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 38.6 kWh, which is higher than the current reading of 71.6 kWh. The minimum re"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.105,
+      "trend_accuracy": 0.22,
+      "mean_latency_ms": 4899.406833426328,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current energy consumption pattern for sample_6482 is not specified in the given text.",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_13352.\n\nSample_13352 is a sample from the Energy Monitoring Assistant dataset. The dataset contains energy cons",
+        "Sure, I'd be happy to provide you with more information about the current energy consumption pattern of sample_6985.\n\nThe sample_6985 dataset contains data on the energy consumption of a building over",
+        "Sure! Here's the current energy consumption pattern for sample_4570:\n\n| Time (UTC) | Energy (kWh) |\n|------------|-------------|\n| 00:00:00 | 10.00 |\n| 00:01:00 | 11.00 |\n| 00:02:00 | 12.00 |\n|",
+        "Sure! The current energy consumption pattern for building sample_11466 is as follows:\n\n1. Daytime: The building uses natural light and occupancy to provide energy for heating and cooling. The building"
+      ]
+    }
+  }
+}

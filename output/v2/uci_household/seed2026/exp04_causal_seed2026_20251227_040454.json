@@ -1,0 +1,111 @@
+{
+  "experiment": "causal_validation",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:59:14.908279",
+  "config": {
+    "n_query_types": 10,
+    "n_repeats": 3,
+    "total_queries": 30
+  },
+  "methods": {
+    "tgp": {
+      "method": "TGP (with causal validation)",
+      "valid_rate": 0.7333333333333333,
+      "invalid_rate": 0.26666666666666666,
+      "mean_score": 0.7,
+      "mean_latency_ms": 5318.131988895281,
+      "std_latency_ms": 170.1176068799922,
+      "total_queries": 30,
+      "sample_responses": [
+        "After 6 PM, the occupancy rate decreased from 0.2 to 0.1, which resulted in a decrease in consumption. This decrease in occupancy caused a decrease in",
+        "Consumption can be higher today than yesterday due to several factors:\n\n1. Changes in weather conditions: The weather conditions, such as temperature,",
+        "At 2 PM, the energy consumption increased significantly due to the following factors:\n\n1. Heating: The temperature in the room increased, leading to a",
+        "The causal relationship between weekend consumption and consumption on weekdays is as follows:\n\nWeekend consumption: 80.0\nWeekday consumption: 150.0\n\n",
+        "The morning consumption increase can be explained by the following causal relationships:\n\n1. Daylight: The increase in daylight hours during the dayti"
+      ],
+      "details": [
+        {
+          "query": "Why did consumption drop after 6 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption higher today than yesterday?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption",
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "Why is weekend consumption lower?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption abnormally high right now?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause plug_load. The causal direction is plug_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": true,
+          "score": 0.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption abnormally high right now?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        }
+      ]
+    },
+    "raw_llm": {
+      "method": "Raw TinyLLaMA (no fine-tuning)",
+      "valid_rate": 0.7333333333333333,
+      "mean_score": 0.6666666666666666,
+      "mean_latency_ms": 5220.015215831033,
+      "total_queries": 30
+    },
+    "no_validation": {
+      "method": "No Causal Validation",
+      "valid_rate": 1.0,
+      "mean_score": null,
+      "note": "Accepts all responses - cannot detect invalid causal claims"
+    }
+  },
+  "dataset": "uci_household"
+}

@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2025,
+  "timestamp": "2025-12-27T04:27:39.106723",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2120.2264351886697,
+      "std_latency_ms": 337.73848619071924,
+      "p95_latency_ms": 2717.5786207662895,
+      "grounding_quality": {
+        "value_accuracy": 0.8,
+        "trend_accuracy": 0.16,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.8,
+        "combined_score": 0.638
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is that the mean energy consumption is 147.3 kWh, and the curr"
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 1910.1819668337703,
+      "std_latency_ms": 526.9538557319133,
+      "p95_latency_ms": 2722.606293775607,
+      "grounding_quality": {
+        "value_accuracy": 0.74,
+        "trend_accuracy": 0.56,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.74,
+        "combined_score": 0.725
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" (average) and \"current\" (current) for the given database que"
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2501.044191606343,
+      "std_latency_ms": 381.68395668543116,
+      "p95_latency_ms": 2725.125668483088,
+      "grounding_quality": {
+        "value_accuracy": 0.78,
+        "trend_accuracy": 0.02,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.78,
+        "combined_score": 0.585
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is \"inactive\" as the energy consumption is below the s"
+    }
+  ],
+  "dataset": "uci_steel"
+}

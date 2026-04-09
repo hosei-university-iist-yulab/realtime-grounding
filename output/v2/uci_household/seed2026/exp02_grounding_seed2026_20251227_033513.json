@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_household",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:17:59.132042",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.9,
+      "trend_accuracy": 0.55,
+      "mean_latency_ms": 4935.812055746792,
+      "std_latency_ms": 521.6117583830244,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is increasing steadily, with a mean consumption of 1.1 kWh, a current reading of 0.8 kWh, and a minimum consumption of 0.4 kWh,",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a high energy consumption during the daytime, with a peak consumption of 1.6 kWh followed by a lower consump",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a mean consumption of 0.8 kWh, a current reading of 0.3 kWh, and a minimum of -0.2 kWh and a maximum ",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.4 kWh, a current reading of 0.3 kWh, and a minimum consumption of 0.2 kWh, and a maximu",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.3 kWh, a current reading of 0.4 kWh, and a minimum consumption of 0.1 kWh, and a maximu"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.15,
+      "trend_accuracy": 0.26,
+      "mean_latency_ms": 5151.2866005755495,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the building sample_1914972.\n\nThe building sample_1914972 has a total energy consumption of 10,000 kWh for the year 20",
+        "The current energy consumption pattern for sample_1789499 is not specified in the given material. It is only mentioned that the energy monitoring assistant is monitoring the energy consumption of the ",
+        "Sure! The current energy consumption pattern for building sample_1228234 is as follows:\n\n1. 10:00 AM: The building's energy consumption peaks at this time, with a total energy consumption of 10.2 kW.\n",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_1761096.\n\nThe sample_1761096 is a building located in the city of New York, USA. The building has been moni",
+        "Sure! Here's the current energy consumption pattern for sample_825059:\n\n1. 10:00 AM: The system starts up and begins to consume energy.\n\n2. 10:10 AM: The system reaches its peak energy consumption, wh"
+      ]
+    }
+  }
+}

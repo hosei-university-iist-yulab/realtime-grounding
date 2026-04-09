@@ -1,0 +1,28 @@
+{
+  "experiment": "simulated_deployment",
+  "seed": 2026,
+  "config": {
+    "duration_hours": 0.5,
+    "queries_per_hour": 60,
+    "target_queries": 30
+  },
+  "metrics": {
+    "timestamp": "2025-12-27T05:34:56.444562",
+    "queries_processed": 30,
+    "total_runtime_hours": 0.007926089564959209,
+    "avg_latency_ms": 950.1262807636522,
+    "p95_latency_ms": 1098.6360581766342,
+    "p99_latency_ms": 1218.3720900607295,
+    "memory_usage_mb": 761.9873046875,
+    "memory_peak_mb": 986.0,
+    "gpu_utilization_pct": 0,
+    "errors_count": 0,
+    "uptime_pct": 100.0
+  },
+  "memory_analysis": {
+    "initial_mb": 753.86083984375,
+    "peak_mb": 986.0,
+    "leak_mb_per_hour": 3.050537967510249e-12
+  },
+  "errors": []
+}

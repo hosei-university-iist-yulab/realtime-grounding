@@ -1,0 +1,25 @@
+
+% ============================================================================
+% Table 7: Scalability Analysis
+% ============================================================================
+\begin{table}[t]
+\centering
+\caption{Scalability: TGP Performance vs Number of Sensors.
+Sub-linear scaling enables deployment at scale.}
+\label{tab:scalability}
+\begin{tabular}{r c c c}
+\toprule
+\textbf{Sensors} & \textbf{Mean Latency} & \textbf{P95 Latency} & \textbf{Throughput} \\
+ & (ms) & (ms) & (QPS) \\
+\midrule
+10 & 0.064 & 0.080 & 15,771 \\
+50 & 0.050 & 0.051 & 20,152 \\
+100 & 0.049 & 0.050 & 20,472 \\
+500 & 0.054 & 0.060 & 18,481 \\
+1,000 & 0.053 & 0.060 & 18,853 \\
+\midrule
+\multicolumn{4}{l}{\textit{Scaling type: sub-linear}} \\
+
+\bottomrule
+\end{tabular}
+\end{table}

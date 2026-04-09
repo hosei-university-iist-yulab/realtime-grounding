@@ -1,0 +1,91 @@
+{
+  "experiment": "sampling_robustness",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:52:33.939480",
+  "config": {
+    "n_base_readings": 500
+  },
+  "sampling_rate": {
+    "1min": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5725.11424892582,
+      "staleness_latency_ms": 0.004135927883908153,
+      "has_values": true
+    },
+    "5min": {
+      "n_readings": 100,
+      "grounding_latency_ms": 5132.664885954,
+      "staleness_latency_ms": 0.003612448927015066,
+      "has_values": true
+    },
+    "15min": {
+      "n_readings": 34,
+      "grounding_latency_ms": 3391.6352769592777,
+      "staleness_latency_ms": 0.002822448732331395,
+      "has_values": true
+    },
+    "60min": {
+      "n_readings": 9,
+      "grounding_latency_ms": 3203.681380022317,
+      "staleness_latency_ms": 0.003719999868836668,
+      "has_values": true
+    }
+  },
+  "data_dropout": {
+    "0pct": {
+      "n_readings": 500,
+      "n_dropped": 0,
+      "grounding_latency_ms": 4410.833118017763,
+      "staleness_latency_ms": 0.0035054690670222044,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 450,
+      "n_dropped": 50,
+      "grounding_latency_ms": 5584.789386950433,
+      "staleness_latency_ms": 0.002744450466707349,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 350,
+      "n_dropped": 150,
+      "grounding_latency_ms": 4737.7206810051575,
+      "staleness_latency_ms": 0.002813484752550721,
+      "has_values": true
+    },
+    "50pct": {
+      "n_readings": 250,
+      "n_dropped": 250,
+      "grounding_latency_ms": 3954.8013259191066,
+      "staleness_latency_ms": 0.002725940430536866,
+      "has_values": true
+    }
+  },
+  "noise_level": {
+    "0pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 4927.065031020902,
+      "staleness_latency_ms": 0.003342458512634039,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5370.434199925512,
+      "staleness_latency_ms": 0.003014941466972232,
+      "has_values": true
+    },
+    "20pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5716.670926078223,
+      "staleness_latency_ms": 0.0027920003049075603,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 4736.162589979358,
+      "staleness_latency_ms": 0.0028109527193009853,
+      "has_values": true
+    }
+  },
+  "dataset": "ukdale"
+}

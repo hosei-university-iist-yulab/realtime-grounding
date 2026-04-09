@@ -1,0 +1,91 @@
+{
+  "experiment": "sampling_robustness",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:52:33.939381",
+  "config": {
+    "n_base_readings": 500
+  },
+  "sampling_rate": {
+    "1min": {
+      "n_readings": 500,
+      "grounding_latency_ms": 4153.969518956728,
+      "staleness_latency_ms": 0.004364404594525695,
+      "has_values": true
+    },
+    "5min": {
+      "n_readings": 100,
+      "grounding_latency_ms": 3769.64912598487,
+      "staleness_latency_ms": 0.003211456350982189,
+      "has_values": true
+    },
+    "15min": {
+      "n_readings": 34,
+      "grounding_latency_ms": 4822.379429009743,
+      "staleness_latency_ms": 0.0032124691642820835,
+      "has_values": true
+    },
+    "60min": {
+      "n_readings": 9,
+      "grounding_latency_ms": 5609.927378012799,
+      "staleness_latency_ms": 0.004962099612587028,
+      "has_values": true
+    }
+  },
+  "data_dropout": {
+    "0pct": {
+      "n_readings": 500,
+      "n_dropped": 0,
+      "grounding_latency_ms": 5594.09437305294,
+      "staleness_latency_ms": 0.002977455733343959,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 450,
+      "n_dropped": 50,
+      "grounding_latency_ms": 5593.244676012546,
+      "staleness_latency_ms": 0.0027334492187947035,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 350,
+      "n_dropped": 150,
+      "grounding_latency_ms": 4977.642682031728,
+      "staleness_latency_ms": 0.0027679954655468464,
+      "has_values": true
+    },
+    "50pct": {
+      "n_readings": 250,
+      "n_dropped": 250,
+      "grounding_latency_ms": 5597.2697449615225,
+      "staleness_latency_ms": 0.0037223973777145147,
+      "has_values": true
+    }
+  },
+  "noise_level": {
+    "0pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5617.0507409842685,
+      "staleness_latency_ms": 0.002698996104300022,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5503.083513001911,
+      "staleness_latency_ms": 0.0027290021535009146,
+      "has_values": true
+    },
+    "20pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5624.10773395095,
+      "staleness_latency_ms": 0.002688437234610319,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5641.785749932751,
+      "staleness_latency_ms": 0.002693943679332733,
+      "has_values": true
+    }
+  },
+  "dataset": "bdg2"
+}

@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "ukdale",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:20:43.182617",
+  "n_cases": 5,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 1.0,
+      "trend_accuracy": 0.2,
+      "mean_latency_ms": 5083.029833412729,
+      "std_latency_ms": 469.6807691493642,
+      "n_cases": 5,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.6 kWh, a current reading of 0.3 kWh, and a minimum reading of -2.0 kWh, and a maximum r",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 0.2 kWh, a current reading of 0.2 kWh, and a minimum reading of -0.0 kWh, and a maximum r",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 0.5 kWh, a current reading of 0.5 kWh, and a minimum consumption of 0.5 kWh. T",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a low consumption level. The mean consumption is 1.0 kWh, which is lower than the current reading of 1.1 kWh",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 0.3 kWh, a current reading of 0.2 kWh, and a minimum consumption of 0.0 kWh, a"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.2,
+      "trend_accuracy": 0.2,
+      "mean_latency_ms": 3670.2925708144903,
+      "n_cases": 5,
+      "sample_responses": [
+        "The current energy consumption pattern for house_2 is not specified in the given text.",
+        "The current energy consumption pattern of house_4 is not specified in the given text.",
+        "Sure! Here's the current energy consumption pattern for the building house_1:\n\n1. Daytime: The building is typically in use during the day, and the energy consumption pattern is as follows:\n\n- Daytime",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the building house_5.\n\nCurrent Energy Consumption Pattern:\n\n1. Daytime:\nThe building house_5 operates during the dayti",
+        "I do not have access to the specific energy consumption pattern of the building you are referring to. However, in general, the current energy consumption pattern of a building can be determined by ana"
+      ]
+    }
+  }
+}

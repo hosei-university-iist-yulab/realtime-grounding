@@ -1,0 +1,940 @@
+{
+  "experiment": "trend_features_phi2_test",
+  "timestamp": "2025-12-27T05:10:50.967051",
+  "dataset": "bdg2",
+  "n_scenarios": 50,
+  "n_trend_types": 2,
+  "baseline": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 1113.1603500107303,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 754.1059260256588,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 752.3624430177733,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 750.07678498514,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 748.4876819653437,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 752.3938929662108,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.7301620636135,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.381075005047,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.471006073989,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 748.5464100027457,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 749.539957032539,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 749.3090139469132,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w2",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.0612650029361,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.9399269428104,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w4",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.3848480256274,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.1418029852211,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 750.0910690287128,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 747.6036959560588,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.0809149304405,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.6655579842627,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.7311379946768,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.5709290914237,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.9476689798757,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.072420919314,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 747.027819044888,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 747.1715320134535,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.8909000270069,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.1774759208784,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.9461229369044,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.6960999621078,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.9513299399987,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.8533839778975,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.0063700564206,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.5853099925444,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.6498859897256,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 747.3408780060709,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 748.1222780188546,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 3:**",
+        "latency_ms": 744.9779950547963,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 3:**",
+        "latency_ms": 746.380042983219,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.8708359627053,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.5631369482726,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 2:**",
+        "latency_ms": 744.3766350625083,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 3:**",
+        "latency_ms": 745.2387179946527,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.8393009835854,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.9982330435887,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.1943499511108,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.8324999790639,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.2635871013626,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 747.0992519520223,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 750.8043439593166,
+        "enhanced_features_used": false
+      }
+    ]
+  },
+  "enhanced": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.6909469803795,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.2950760014355,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.8098740316927,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.9426349485293,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Lorriane_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.5730399340391,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.6181509876624,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.9267400186509,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.8533759452403,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.081388973631,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Cora_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.8284129602835,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.6245370190591,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w1",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.6548551088199,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w2",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.9765069866553,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.5354180419818,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_office_Hannah_w4",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.032258098945,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.0068299183622,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 743.91269905027,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 747.0217000227422,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 746.3411570060998,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_lodging_Hattie_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.3553410014138,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.0346769765019,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.3727999925613,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 745.704211993143,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.0625580493361,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Teofila_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.1665629632771,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.6483050696552,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.7624639607966,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.8085289904848,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.0378030296415,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Jerome_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.0035940380767,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.244250934571,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.5169729180634,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.0074370242655,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.3859740160406,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Felix_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.8667229618877,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 745.292418054305,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.2313960054889,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 3:**",
+        "latency_ms": 744.3882289808244,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 3:**",
+        "latency_ms": 744.4772829767317,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_parking_Asia_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 2:**",
+        "latency_ms": 744.2482620244846,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 743.8664779765531,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 747.1158700063825,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.0659230342135,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.6864559100941,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_education_Misty_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Follow-up Exercise 3:**",
+        "latency_ms": 745.3412829199806,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.4704830413684,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w1",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 744.5183369563892,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w2",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "**Solution:**\n\n1.",
+        "latency_ms": 746.1649680044502,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w3",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.1301039652899,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "bdg2_Panther_retail_Gilbert_w4",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "First, we need to understand the",
+        "latency_ms": 744.8306839214638,
+        "enhanced_features_used": true
+      }
+    ]
+  },
+  "improvement": {
+    "absolute": 0.0,
+    "relative": 0
+  },
+  "per_type": {
+    "stable": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 47
+    },
+    "volatile": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 3
+    }
+  },
+  "config": {
+    "window_size": 100,
+    "llm_model": "microsoft/phi-2",
+    "device": "cuda:0 (via CUDA_VISIBLE_DEVICES)"
+  }
+}

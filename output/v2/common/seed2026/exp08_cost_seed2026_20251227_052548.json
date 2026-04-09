@@ -1,0 +1,65 @@
+{
+  "experiment": "computational_cost",
+  "seed": 2026,
+  "timestamp": "2025-12-27T05:24:19.891215",
+  "gpu_info": {
+    "device_name": "NVIDIA GeForce RTX 3090",
+    "total_memory_gb": 25.323503616,
+    "baseline_allocated_gb": 0.0,
+    "baseline_reserved_gb": 0.0,
+    "baseline_power_watts": 22.6
+  },
+  "components": {
+    "buffer": {
+      "push": {
+        "mean_latency_ms": 0.002881353721022606,
+        "std_latency_ms": 0.010001330480673575,
+        "peak_memory_gb": 0.0,
+        "n_operations": 500
+      },
+      "get": {
+        "mean_latency_ms": 0.0031900680623948574,
+        "std_latency_ms": 0.000308850737858465,
+        "peak_memory_gb": 0.0,
+        "n_operations": 500
+      }
+    },
+    "staleness": {
+      "mean_latency_ms": 0.008405084954574704,
+      "std_latency_ms": 0.01032387849057098,
+      "p95_latency_ms": 0.0393285823520273,
+      "peak_memory_gb": 0.0,
+      "avg_power_watts": 22.814,
+      "n_operations": 100
+    },
+    "inference": {
+      "model": "TinyLLaMA-1.1B",
+      "quantization": "4-bit (bitsandbytes)",
+      "mean_latency_ms": 2441.5505659999326,
+      "std_latency_ms": 566.7192982149306,
+      "p95_latency_ms": 2852.0783225423647,
+      "peak_memory_gb": 1.091633152,
+      "avg_power_watts": 22.441000000000006,
+      "tokens_per_second": 17.03152656856933,
+      "avg_tokens_per_response": 41.583333333333336,
+      "n_queries": 30
+    },
+    "training": {
+      "model": "TinyLLaMA-1.1B + LoRA",
+      "source": "actual_training_logs",
+      "dataset_size": "unknown",
+      "estimated_power_watts": 280,
+      "estimated_time_hours": 0.5,
+      "estimated_co2_kg": 0.058800000000000005,
+      "co2_calculation": "280W * 0.5h / 1000 * 0.42 kg/kWh"
+    }
+  },
+  "summary": {
+    "total_query_latency_ms": 2441.5621611529496,
+    "peak_memory_gb": 1.091633152,
+    "avg_power_watts": 22.441000000000006,
+    "co2_per_hour_kg": 0.009425220000000002,
+    "queries_per_second": 0.4095738441194477,
+    "training_co2_kg": 0.058800000000000005
+  }
+}

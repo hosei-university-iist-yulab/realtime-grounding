@@ -1,0 +1,91 @@
+{
+  "experiment": "sampling_robustness",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:54:29.241299",
+  "config": {
+    "n_base_readings": 500
+  },
+  "sampling_rate": {
+    "1min": {
+      "n_readings": 500,
+      "grounding_latency_ms": 3875.267158029601,
+      "staleness_latency_ms": 0.00461744493804872,
+      "has_values": true
+    },
+    "5min": {
+      "n_readings": 100,
+      "grounding_latency_ms": 5488.1916750455275,
+      "staleness_latency_ms": 0.003827945329248905,
+      "has_values": true
+    },
+    "15min": {
+      "n_readings": 34,
+      "grounding_latency_ms": 5427.236002986319,
+      "staleness_latency_ms": 0.0035384553484618664,
+      "has_values": true
+    },
+    "60min": {
+      "n_readings": 9,
+      "grounding_latency_ms": 5712.009549024515,
+      "staleness_latency_ms": 0.006207691815992196,
+      "has_values": true
+    }
+  },
+  "data_dropout": {
+    "0pct": {
+      "n_readings": 500,
+      "n_dropped": 0,
+      "grounding_latency_ms": 5716.428969055414,
+      "staleness_latency_ms": 0.002839940134435892,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 450,
+      "n_dropped": 50,
+      "grounding_latency_ms": 4631.16973999422,
+      "staleness_latency_ms": 0.003407965414226055,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 350,
+      "n_dropped": 150,
+      "grounding_latency_ms": 5702.779792947695,
+      "staleness_latency_ms": 0.0031659496016800404,
+      "has_values": true
+    },
+    "50pct": {
+      "n_readings": 250,
+      "n_dropped": 250,
+      "grounding_latency_ms": 5593.082014005631,
+      "staleness_latency_ms": 0.003366445889696479,
+      "has_values": true
+    }
+  },
+  "noise_level": {
+    "0pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5713.086336967535,
+      "staleness_latency_ms": 0.0028989568818360567,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5730.555425048806,
+      "staleness_latency_ms": 0.0035769538953900337,
+      "has_values": true
+    },
+    "20pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5711.9191529927775,
+      "staleness_latency_ms": 0.0030784576665610075,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 4300.962180946954,
+      "staleness_latency_ms": 0.003016955452039838,
+      "has_values": true
+    }
+  },
+  "dataset": "uci_steel"
+}

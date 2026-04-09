@@ -1,0 +1,87 @@
+{
+  "experiment": "trend_training_ablation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:32:14.440064",
+  "ablations": {
+    "synthetic_only": {
+      "accuracy": 0.325,
+      "n_samples": 40,
+      "per_trend_type": {
+        "increasing": {
+          "accuracy": 1.0,
+          "n_samples": 10
+        },
+        "decreasing": {
+          "accuracy": 0.0,
+          "n_samples": 10
+        },
+        "stable": {
+          "accuracy": 0.3,
+          "n_samples": 10
+        },
+        "volatile": {
+          "accuracy": 0.0,
+          "n_samples": 10
+        }
+      },
+      "avg_latency_ms": 494.77315709227696
+    },
+    "real_only": {
+      "accuracy": 0.3,
+      "n_samples": 40,
+      "per_trend_type": {
+        "stable": {
+          "accuracy": 0.3,
+          "n_samples": 40
+        }
+      },
+      "avg_latency_ms": 486.89845089102164
+    },
+    "mixed_50_50": {
+      "accuracy": 0.35,
+      "n_samples": 40,
+      "per_trend_type": {
+        "increasing": {
+          "accuracy": 1.0,
+          "n_samples": 5
+        },
+        "decreasing": {
+          "accuracy": 0.0,
+          "n_samples": 5
+        },
+        "stable": {
+          "accuracy": 0.36,
+          "n_samples": 25
+        },
+        "volatile": {
+          "accuracy": 0.0,
+          "n_samples": 5
+        }
+      },
+      "avg_latency_ms": 487.1604131098138
+    },
+    "balanced_types": {
+      "accuracy": 0.44,
+      "n_samples": 25,
+      "per_trend_type": {
+        "increasing": {
+          "accuracy": 1.0,
+          "n_samples": 5
+        },
+        "decreasing": {
+          "accuracy": 0.0,
+          "n_samples": 5
+        },
+        "stable": {
+          "accuracy": 0.6,
+          "n_samples": 10
+        },
+        "volatile": {
+          "accuracy": 0.0,
+          "n_samples": 5
+        }
+      },
+      "avg_latency_ms": 486.9060591608286
+    }
+  }
+}

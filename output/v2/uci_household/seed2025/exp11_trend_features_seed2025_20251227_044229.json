@@ -1,0 +1,940 @@
+{
+  "experiment": "trend_features_evaluation_real_data",
+  "timestamp": "2025-12-27T04:42:29.081587",
+  "dataset": "uci_household",
+  "n_scenarios": 50,
+  "n_trend_types": 2,
+  "baseline": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "uci_household_sample_1203583_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 900.1802069833502,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_635433_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 552.6398289948702,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_186241_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 555.7370949536562,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1351455_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 552.016256027855,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1967961_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 554.3801169842482,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_927763_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 552.968560019508,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1883765_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 553.8019090890884,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_484587_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 553.3508509397507,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_79476_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 556.26584100537,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1869441_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 554.2187159880996,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_119325_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 554.6221310505643,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_464596_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.9087959546596,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_812833_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 554.0501739596948,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1771418_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 552.8737889835611,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1655708_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 553.9474060060456,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1739994_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 552.4841150036082,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1391011_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.8668660186231,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1181123_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.8569269916043,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_288921_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.4503200538456,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1984571_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 550.3412720281631,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_821602_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.8778680125251,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1933612_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.0702410247177,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_900506_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 550.8815420325845,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1425840_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.2126659741625,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_278314_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 553.6002470180392,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1144392_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 552.4745429866016,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1801140_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 550.899283029139,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_963001_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 552.9919690452516,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1173220_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.8509500650689,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1871213_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 551.3599410187453,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1453323_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.5686729447916,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_532080_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.2027529766783,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1316780_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 551.3335140421987,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_288740_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.6272939965129,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_262626_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.3299530139193,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1518630_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.0903829233721,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1563026_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 551.2477629818022,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_460418_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 554.0196090005338,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1498625_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.728305010125,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1233361_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 552.1083640633151,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1539280_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.3260049736127,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1415641_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 551.9474659813568,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1844834_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.2584429923445,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1094928_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.2445719214156,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1782615_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.6483080098405,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_493596_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.3750880490988,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1991730_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 550.3475210862234,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1513938_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.4437149977311,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_860270_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.2789329513907,
+        "enhanced_features_used": false
+      },
+      {
+        "scenario": "uci_household_sample_1606958_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.1197519954294,
+        "enhanced_features_used": false
+      }
+    ]
+  },
+  "enhanced": {
+    "accuracy": 0.0,
+    "results": [
+      {
+        "scenario": "uci_household_sample_1203583_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.2193770371377,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_635433_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.154998014681,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_186241_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.7127239834517,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1351455_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 551.711519015953,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1967961_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.2020189780742,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_927763_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.1507739536464,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1883765_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 551.9659679848701,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_484587_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 550.8867619792,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_79476_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.8077609594911,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1869441_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.6833620602265,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_119325_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.6433180999011,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_464596_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.7083499105647,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_812833_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.0398789299652,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1771418_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 550.2676300238818,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1655708_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.0256600100547,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1739994_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.076197065413,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1391011_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.3640219103545,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1181123_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.2464160090312,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_288921_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.751097034663,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1984571_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 550.239194999449,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_821602_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.6235820250586,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1933612_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.9327030740678,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_900506_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.4794190637767,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1425840_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 553.5682829795405,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_278314_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.9699260583147,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1144392_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 552.6552010560408,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1801140_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.3338599810377,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_963001_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.6348870694637,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1173220_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 552.1975109586492,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1871213_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.4974260693416,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1453323_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 550.0594819895923,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_532080_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.267773960717,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1316780_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.5412239581347,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_288740_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.6118589546531,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_262626_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 553.7080810172483,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1518630_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 552.7309540193528,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1563026_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.2719469843432,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_460418_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.8917640438303,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1498625_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 551.2314529623836,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1233361_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.0917660538107,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1539280_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 551.3080090750009,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1415641_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 550.9576289914548,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1844834_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Recent statistics (last 10",
+        "latency_ms": 550.3264109138399,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1094928_w0",
+        "expected": "stable",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.8790760068223,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1782615_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.219620927237,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_493596_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 550.6355070974678,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1991730_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 553.3840199932456,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1513938_w0",
+        "expected": "volatile",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The trend",
+        "latency_ms": 550.6967810215428,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_860270_w0",
+        "expected": "volatile",
+        "predicted": "unknown",
+        "correct": false,
+        "response": "Question: What is the average energy consumption",
+        "latency_ms": 550.3926309756935,
+        "enhanced_features_used": true
+      },
+      {
+        "scenario": "uci_household_sample_1606958_w0",
+        "expected": "stable",
+        "predicted": "increasing",
+        "correct": false,
+        "response": "- Increasing: The energy consumption",
+        "latency_ms": 566.1771079758182,
+        "enhanced_features_used": true
+      }
+    ]
+  },
+  "improvement": {
+    "absolute": 0.0,
+    "relative": 0
+  },
+  "per_type": {
+    "stable": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 23
+    },
+    "volatile": {
+      "baseline_accuracy": 0.0,
+      "enhanced_accuracy": 0.0,
+      "improvement": 0.0,
+      "n_samples": 27
+    }
+  },
+  "config": {
+    "window_size": 100,
+    "llm_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "device": "cuda:0 (via CUDA_VISIBLE_DEVICES)"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_steel",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:17:59.131875",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.66,
+      "trend_accuracy": 0.58,
+      "mean_latency_ms": 5220.6312036304735,
+      "std_latency_ms": 443.3726197559242,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a wide range of consumption values. The mean consumption value of 7.8 kWh indicates that the average e",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 23.6 kWh, a current reading of 3.6 kWh, and a minimum of -42.5 kWh and a maxim",
+        "The current sensor readings indicate a steady increase in energy consumption, with a peak of 3.0 kWh and a minimum of -33.0 kWh. The standard deviation indicates that the energy consumption pattern is",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 39.3 kWh, a current reading of 138.4 kWh, and a minimum of -36.3 kWh, and a",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually. The mean consumption is 37.7 kWh, which is higher than the current reading of 119.9 kWh. The standard "
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.075,
+      "trend_accuracy": 0.21,
+      "mean_latency_ms": 4835.003147781827,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! Here's the current energy consumption pattern for sample_10003:\n\n1. 10:00 AM: The energy consumption for sample_10003 is 10.00 kWh.\n\n2. 10:15 AM: The energy consumption for sample_10003 is 11.00",
+        "Sure! Here's the current energy consumption pattern for sample_4440:\n\n1. 10:00 AM: The energy consumption for this hour is 100 kWh.\n\n2. 11:00 AM: The energy consumption for this hour is 100 kWh.\n\n3. 1",
+        "The current energy consumption pattern of sample_2958 is not specified in the given text.",
+        "Sure! The current energy consumption pattern for building sample_8009 is as follows:\n\n- The building has a total electricity consumption of 1000 units.\n- The building has a total natural gas consumpti",
+        "Sure! Here's a breakdown of the current energy consumption pattern for the building sample_11206:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumpt"
+      ]
+    }
+  }
+}

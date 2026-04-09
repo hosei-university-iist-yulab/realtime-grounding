@@ -1,0 +1,114 @@
+{
+  "experiment": "causal_validation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T04:04:59.355654",
+  "config": {
+    "n_query_types": 10,
+    "n_repeats": 3,
+    "total_queries": 30
+  },
+  "methods": {
+    "tgp": {
+      "method": "TGP (with causal validation)",
+      "valid_rate": 0.6666666666666666,
+      "invalid_rate": 0.3333333333333333,
+      "mean_score": 0.5166666666666667,
+      "mean_latency_ms": 5320.9930516740615,
+      "std_latency_ms": 230.04867088399735,
+      "total_queries": 30,
+      "sample_responses": [
+        "The winter morning peak is driven by several factors, including:\n\n1. Season: winter, which is a time of year when people are typically at home and spe",
+        "Saturday is a weekend day, which means that the occupancy rate is lower than usual. This can result in lower energy consumption on that day. The occup",
+        "Consumption can be affected by several factors, including changes in weather patterns, energy efficiency, and demand patterns.\n\n1. Weather patterns: C",
+        "In the given context, summer and spring are the two seasons, and consumption refers to the amount of energy consumed during a given time period. The r",
+        "To explain the sudden drop in consumption, the following factors could be considered:\n\n1. Changing weather conditions: The weather conditions during t"
+      ],
+      "details": [
+        {
+          "query": "What drives the winter morning peak?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is weekend consumption lower?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption higher today than yesterday?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "Why is summer consumption higher than spring?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption",
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 0.0,
+          "violations": []
+        },
+        {
+          "query": "What causes the baseload at night?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause plug_load. The causal direction is plug_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": false,
+          "score": 0.25,
+          "violations": [
+            "Reversed causation: occupancy does not cause hour_of_day. The causal direction is hour_of_day -> occupancy",
+            "Reversed causation: occupancy does not cause hour_of_day. The causal direction is hour_of_day -> occupancy"
+          ]
+        },
+        {
+          "query": "Why is summer consumption higher than spring?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        }
+      ]
+    },
+    "raw_llm": {
+      "method": "Raw TinyLLaMA (no fine-tuning)",
+      "valid_rate": 0.8,
+      "mean_score": 0.7666666666666667,
+      "mean_latency_ms": 5260.882198969678,
+      "total_queries": 30
+    },
+    "no_validation": {
+      "method": "No Causal Validation",
+      "valid_rate": 1.0,
+      "mean_score": null,
+      "note": "Accepts all responses - cannot detect invalid causal claims"
+    }
+  },
+  "dataset": "uci_tetouan"
+}

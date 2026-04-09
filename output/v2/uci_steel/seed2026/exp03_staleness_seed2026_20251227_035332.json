@@ -1,0 +1,58 @@
+{
+  "experiment": "staleness_detection",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:53:19.778433",
+  "n_samples": 500,
+  "methods": {
+    "time_threshold_detector": {
+      "accuracy": 0.986,
+      "precision": 1.0,
+      "recall": 0.9533333333333334,
+      "f1": 0.9761092150170648,
+      "tp": 143,
+      "fp": 0,
+      "fn": 7,
+      "tn": 350,
+      "mean_latency_ms": 0.002314496086910367,
+      "n_samples": 500,
+      "method": "time_threshold"
+    },
+    "time_threshold_300s": {
+      "precision": 1.0,
+      "recall": 0.9066666666666666,
+      "f1": 0.9510489510489509,
+      "threshold_seconds": 300
+    },
+    "time_threshold_600s": {
+      "precision": 1.0,
+      "recall": 0.8533333333333334,
+      "f1": 0.9208633093525179,
+      "threshold_seconds": 600
+    },
+    "value_threshold_20pct": {
+      "precision": 1.0,
+      "recall": 0.6266666666666667,
+      "f1": 0.7704918032786886,
+      "threshold_percent": 0.2
+    },
+    "value_threshold_30pct": {
+      "precision": 1.0,
+      "recall": 0.6266666666666667,
+      "f1": 0.7704918032786886,
+      "threshold_percent": 0.3
+    },
+    "embedding_detector_deprecated": {
+      "accuracy": 0.7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 150,
+      "tn": 350,
+      "mean_latency_ms": 4.580226787831634,
+      "n_samples": 500
+    }
+  },
+  "dataset": "uci_steel"
+}

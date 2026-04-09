@@ -1,0 +1,28 @@
+{
+  "experiment": "cross_dataset_validation",
+  "seed": 2026,
+  "timestamp": "2025-12-27T05:24:18.607245",
+  "config": {
+    "n_samples_per_building": 50
+  },
+  "dataset_availability": {
+    "bdg2": false,
+    "redd": false
+  },
+  "results": {
+    "lora_loaded": false,
+    "datasets": {
+      "bdg2": {
+        "error": "bdg2 dataset not found",
+        "n_buildings": 0
+      },
+      "redd": {
+        "error": "redd dataset not found",
+        "n_buildings": 0
+      }
+    }
+  },
+  "generalization_gaps": {
+    "error": "BDG2 baseline not available"
+  }
+}

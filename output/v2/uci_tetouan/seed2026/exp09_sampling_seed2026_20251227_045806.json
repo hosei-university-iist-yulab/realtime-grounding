@@ -1,0 +1,91 @@
+{
+  "experiment": "sampling_robustness",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:56:27.974517",
+  "config": {
+    "n_base_readings": 500
+  },
+  "sampling_rate": {
+    "1min": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5655.168747995049,
+      "staleness_latency_ms": 0.004413444548845291,
+      "has_values": true
+    },
+    "5min": {
+      "n_readings": 100,
+      "grounding_latency_ms": 3662.854544003494,
+      "staleness_latency_ms": 0.0034099328331649303,
+      "has_values": true
+    },
+    "15min": {
+      "n_readings": 34,
+      "grounding_latency_ms": 4359.455546946265,
+      "staleness_latency_ms": 0.0035119475796818733,
+      "has_values": true
+    },
+    "60min": {
+      "n_readings": 9,
+      "grounding_latency_ms": 2249.172445968725,
+      "staleness_latency_ms": 0.004406565696828895,
+      "has_values": true
+    }
+  },
+  "data_dropout": {
+    "0pct": {
+      "n_readings": 500,
+      "n_dropped": 0,
+      "grounding_latency_ms": 5728.772916016169,
+      "staleness_latency_ms": 0.0030105060432106256,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 450,
+      "n_dropped": 50,
+      "grounding_latency_ms": 3732.3230110341683,
+      "staleness_latency_ms": 0.0035704520996659994,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 350,
+      "n_dropped": 150,
+      "grounding_latency_ms": 3766.1484649870545,
+      "staleness_latency_ms": 0.0035809469409286976,
+      "has_values": true
+    },
+    "50pct": {
+      "n_readings": 250,
+      "n_dropped": 250,
+      "grounding_latency_ms": 3538.2424889830872,
+      "staleness_latency_ms": 0.0029649585485458374,
+      "has_values": true
+    }
+  },
+  "noise_level": {
+    "0pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5710.563056985848,
+      "staleness_latency_ms": 0.002965005114674568,
+      "has_values": true
+    },
+    "10pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 2520.111323101446,
+      "staleness_latency_ms": 0.0028894981369376183,
+      "has_values": true
+    },
+    "20pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 2353.155040065758,
+      "staleness_latency_ms": 0.0028794514946639538,
+      "has_values": true
+    },
+    "30pct": {
+      "n_readings": 500,
+      "grounding_latency_ms": 5731.81080003269,
+      "staleness_latency_ms": 0.0031349598430097103,
+      "has_values": true
+    }
+  },
+  "dataset": "uci_tetouan"
+}

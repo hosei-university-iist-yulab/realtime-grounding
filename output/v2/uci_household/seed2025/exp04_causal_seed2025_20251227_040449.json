@@ -1,0 +1,107 @@
+{
+  "experiment": "causal_validation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T03:59:14.907618",
+  "config": {
+    "n_query_types": 10,
+    "n_repeats": 3,
+    "total_queries": 30
+  },
+  "methods": {
+    "tgp": {
+      "method": "TGP (with causal validation)",
+      "valid_rate": 0.7666666666666667,
+      "invalid_rate": 0.23333333333333334,
+      "mean_score": 0.6444444444444444,
+      "mean_latency_ms": 5180.88200254909,
+      "std_latency_ms": 448.7544061344403,
+      "total_queries": 30,
+      "sample_responses": [
+        "The winter morning peak is driven by several factors, including:\n\n1. Temperature: As the temperature drops, people tend to stay indoors and turn on th",
+        "To answer the question, \"Why is weekend consumption lower?\" we need to understand the causal relationships affecting energy consumption.\n\n1. Occupancy",
+        "Consumption today (temp_today: 35.0) is higher than consumption yesterday (temp_yesterday: 25.0). This is because the temperature has increased by 10 ",
+        "Summer and spring are two different seasons, and their temperatures and average temperatures are different. In summer, the average temperature is high",
+        "To explain the sudden drop in consumption, you could consider the following causal relationships:\n\n1. Temperature: The temperature in the room where t"
+      ],
+      "details": [
+        {
+          "query": "What drives the winter morning peak?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is weekend consumption lower?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption higher today than yesterday?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is summer consumption higher than spring?",
+          "is_valid": true,
+          "score": 0.0,
+          "violations": []
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What causes the baseload at night?",
+          "is_valid": true,
+          "score": 0.0,
+          "violations": []
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 0.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: occupancy does not cause hour_of_day. The causal direction is hour_of_day -> occupancy",
+            "Reversed causation: occupancy does not cause hour_of_day. The causal direction is hour_of_day -> occupancy"
+          ]
+        },
+        {
+          "query": "Why is summer consumption higher than spring?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        }
+      ]
+    },
+    "raw_llm": {
+      "method": "Raw TinyLLaMA (no fine-tuning)",
+      "valid_rate": 0.8333333333333334,
+      "mean_score": 0.6666666666666666,
+      "mean_latency_ms": 5211.021917778999,
+      "total_queries": 30
+    },
+    "no_validation": {
+      "method": "No Causal Validation",
+      "valid_rate": 1.0,
+      "mean_score": null,
+      "note": "Accepts all responses - cannot detect invalid causal claims"
+    }
+  },
+  "dataset": "uci_household"
+}

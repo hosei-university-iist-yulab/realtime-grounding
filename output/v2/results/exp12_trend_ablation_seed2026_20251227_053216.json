@@ -1,0 +1,91 @@
+{
+  "experiment": "trend_training_ablation",
+  "seed": 2026,
+  "timestamp": "2025-12-27T05:32:16.076446",
+  "ablations": {
+    "synthetic_only": {
+      "accuracy": 0.4,
+      "n_samples": 40,
+      "per_trend_type": {
+        "increasing": {
+          "accuracy": 1.0,
+          "n_samples": 10
+        },
+        "decreasing": {
+          "accuracy": 0.0,
+          "n_samples": 10
+        },
+        "stable": {
+          "accuracy": 0.6,
+          "n_samples": 10
+        },
+        "volatile": {
+          "accuracy": 0.0,
+          "n_samples": 10
+        }
+      },
+      "avg_latency_ms": 496.6639217251213
+    },
+    "real_only": {
+      "accuracy": 0.3,
+      "n_samples": 40,
+      "per_trend_type": {
+        "stable": {
+          "accuracy": 0.24324324324324326,
+          "n_samples": 37
+        },
+        "volatile": {
+          "accuracy": 1.0,
+          "n_samples": 3
+        }
+      },
+      "avg_latency_ms": 489.95434059470426
+    },
+    "mixed_50_50": {
+      "accuracy": 0.375,
+      "n_samples": 40,
+      "per_trend_type": {
+        "increasing": {
+          "accuracy": 1.0,
+          "n_samples": 5
+        },
+        "decreasing": {
+          "accuracy": 0.0,
+          "n_samples": 5
+        },
+        "stable": {
+          "accuracy": 0.3181818181818182,
+          "n_samples": 22
+        },
+        "volatile": {
+          "accuracy": 0.375,
+          "n_samples": 8
+        }
+      },
+      "avg_latency_ms": 490.8852398250019
+    },
+    "balanced_types": {
+      "accuracy": 0.4642857142857143,
+      "n_samples": 28,
+      "per_trend_type": {
+        "increasing": {
+          "accuracy": 1.0,
+          "n_samples": 5
+        },
+        "decreasing": {
+          "accuracy": 0.0,
+          "n_samples": 5
+        },
+        "stable": {
+          "accuracy": 0.5,
+          "n_samples": 10
+        },
+        "volatile": {
+          "accuracy": 0.375,
+          "n_samples": 8
+        }
+      },
+      "avg_latency_ms": 489.8387236088248
+    }
+  }
+}

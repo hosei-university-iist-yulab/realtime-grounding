@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:27:39.106709",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2107.0557733927853,
+      "std_latency_ms": 448.2404837477897,
+      "p95_latency_ms": 2715.6372058438137,
+      "grounding_quality": {
+        "value_accuracy": 0.66,
+        "trend_accuracy": 0.28,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.66,
+        "combined_score": 0.597
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is \"high consumption.\" This means that the energy consumption "
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 1923.582509669941,
+      "std_latency_ms": 522.8029427840997,
+      "p95_latency_ms": 2720.98811288015,
+      "grounding_quality": {
+        "value_accuracy": 0.74,
+        "trend_accuracy": 0.56,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.74,
+        "combined_score": 0.7250000000000003
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" (average) for the query results. The energy consumption for "
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2251.577527979389,
+      "std_latency_ms": 551.8095278225525,
+      "p95_latency_ms": 2723.5614544537384,
+      "grounding_quality": {
+        "value_accuracy": 0.68,
+        "trend_accuracy": 0.0,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.68,
+        "combined_score": 0.524
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is \"Out of Range\". The current energy consumption is 1"
+    }
+  ],
+  "dataset": "uci_household"
+}

@@ -1,0 +1,70 @@
+{
+  "experiment": "sota_comparison",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:33:35.688343",
+  "config": {
+    "n_queries": 50,
+    "n_api_queries": 10,
+    "max_api_budget": 2.0,
+    "skip_api": false
+  },
+  "methods": [
+    {
+      "method": "TGP (Ours)",
+      "type": "edge",
+      "mean_latency_ms": 2143.2190938130952,
+      "std_latency_ms": 393.78089233715957,
+      "p95_latency_ms": 2679.475484509021,
+      "grounding_quality": {
+        "value_accuracy": 0.72,
+        "trend_accuracy": 0.24,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.72,
+        "combined_score": 0.618
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The current energy consumption status is high, as the mean energy consumption is 150.9 kWh and the c"
+    },
+    {
+      "method": "Claude API",
+      "error": "ANTHROPIC_API_KEY not set",
+      "skipped": true
+    },
+    {
+      "method": "SQLite + LLM",
+      "type": "traditional",
+      "mean_latency_ms": 2076.88578318106,
+      "std_latency_ms": 475.25291032541344,
+      "p95_latency_ms": 2685.0244292698335,
+      "grounding_quality": {
+        "value_accuracy": 0.88,
+        "trend_accuracy": 0.46,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.88,
+        "combined_score": 0.7720000000000001
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The energy consumption status is \"mean\" (150.7 kWh), indicating that the energy consumption for the "
+    },
+    {
+      "method": "Raw TinyLLaMA (No Fine-tuning)",
+      "type": "edge",
+      "mean_latency_ms": 2365.3310226579197,
+      "std_latency_ms": 471.96758544139016,
+      "p95_latency_ms": 2687.32440189342,
+      "grounding_quality": {
+        "value_accuracy": 0.86,
+        "trend_accuracy": 0.02,
+        "context_relevance": 1.0,
+        "factual_grounding": 0.86,
+        "combined_score": 0.629
+      },
+      "cost_per_query_usd": 0.0,
+      "n_queries": 50,
+      "sample_response": "The status of the energy monitoring assistant is as follows:\n\n151.0 kWh has been consumed, and 156.0"
+    }
+  ],
+  "dataset": "uci_tetouan"
+}

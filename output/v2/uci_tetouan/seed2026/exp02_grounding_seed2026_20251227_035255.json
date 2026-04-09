@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_tetouan",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:35:16.327435",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.55,
+      "trend_accuracy": 0.38,
+      "mean_latency_ms": 5282.719765990041,
+      "std_latency_ms": 142.06268122240724,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with high and low consumption periods. The mean consumption is 35119.6 kWh, which is higher than the curren",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 40426.3 kWh, which is higher than the current reading of 33564.9 kWh. The mini",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 35480.9 kWh, which is higher than the current reading of 27218.2 kWh. The mini",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a wide range of consumption values. The mean consumption is 30491.3 kWh, which is significantly higher",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a wide range of consumption values. The mean consumption is 40323.3 kWh, which is higher than the mini"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.13,
+      "trend_accuracy": 0.3,
+      "mean_latency_ms": 5038.040281955618,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! The current energy consumption pattern for building sample_19926 is as follows:\n\n1. Daytime: The building is typically used during the daytime, and the energy consumption is low during this time",
+        "I don't have access to the specific energy consumption data of sample_28563. However, based on the information provided in the dataset, the current energy consumption pattern of sample_28563 can be es",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_40833:\n\n1. Day 1:\n- 10:00 AM: The building's HVAC system kicks on, bringing the temperature inside the building up to 70\u00b0F",
+        "I do not have access to specific energy consumption data for building sample_10473. However, based on the information provided in the given material, the current energy consumption pattern for buildin",
+        "Sure! Here's a breakdown of the current energy consumption pattern for the building sample_23825:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumpt"
+      ]
+    }
+  }
+}

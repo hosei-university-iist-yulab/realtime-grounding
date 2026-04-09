@@ -1,0 +1,71 @@
+{
+  "experiment": "scalability",
+  "seed": 2026,
+  "timestamp": "2025-12-27T05:23:23.364832",
+  "sensor_counts": [
+    10,
+    50,
+    100,
+    500,
+    1000
+  ],
+  "results": [
+    {
+      "n_sensors": 10,
+      "n_queries": 100,
+      "mean_latency_ms": 0.07248489884659648,
+      "std_latency_ms": 0.02198706697470595,
+      "p95_latency_ms": 0.08061099215410648,
+      "p99_latency_ms": 0.10901202680543151,
+      "throughput_qps": 13795.977036766672,
+      "populate_time_s": 0.004091501235961914
+    },
+    {
+      "n_sensors": 50,
+      "n_queries": 100,
+      "mean_latency_ms": 0.05022168275900185,
+      "std_latency_ms": 0.01528394579651586,
+      "p95_latency_ms": 0.0505785341374576,
+      "p99_latency_ms": 0.05910962936468496,
+      "throughput_qps": 19911.7183069848,
+      "populate_time_s": 0.0157926082611084
+    },
+    {
+      "n_sensors": 100,
+      "n_queries": 100,
+      "mean_latency_ms": 0.04928797367028892,
+      "std_latency_ms": 0.0032845787352824827,
+      "p95_latency_ms": 0.05098000983707606,
+      "p99_latency_ms": 0.06261838600039489,
+      "throughput_qps": 20288.9249756844,
+      "populate_time_s": 0.0276336669921875
+    },
+    {
+      "n_sensors": 500,
+      "n_queries": 100,
+      "mean_latency_ms": 0.05763384164310992,
+      "std_latency_ms": 0.043184958305218915,
+      "p95_latency_ms": 0.06655498291365802,
+      "p99_latency_ms": 0.07307839114219161,
+      "throughput_qps": 17350.916952445583,
+      "populate_time_s": 0.48870062828063965
+    },
+    {
+      "n_sensors": 1000,
+      "n_queries": 100,
+      "mean_latency_ms": 0.052852866938337684,
+      "std_latency_ms": 0.017013803053099432,
+      "p95_latency_ms": 0.06086240755394101,
+      "p99_latency_ms": 0.06891374825500028,
+      "throughput_qps": 18920.44950308332,
+      "populate_time_s": 0.24916577339172363
+    }
+  ],
+  "analysis": {
+    "scaling_coefficient": -0.00288927499186621,
+    "base_latency": 0.0703313390025068,
+    "scaling_type": "sub-linear",
+    "max_sensors_tested": 1000,
+    "max_latency_ms": 0.07248489884659648
+  }
+}

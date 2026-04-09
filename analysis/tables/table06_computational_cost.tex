@@ -1,0 +1,26 @@
+
+% ============================================================================
+% Table 6: Computational Cost Summary
+% ============================================================================
+\begin{table}[t]
+\centering
+\caption{Computational Resources: TGP Edge Deployment Profile.
+Total memory footprint enables deployment on consumer GPUs.}
+\label{tab:computational_cost}
+\begin{tabular}{l c c}
+\toprule
+\textbf{Component} & \textbf{Latency (ms)} & \textbf{Memory (GB)} \\
+\midrule
+Buffer Push & 0.003 & <0.01 \\
+Buffer Get & 0.003 & <0.01 \\
+Staleness Check & 0.009 & <0.01 \\
+LLM Inference & 2501.3 & 1.09 \\
+\midrule
+\textbf{Total} & \textbf{2501.3} & \textbf{1.09} \\
+
+\midrule
+\multicolumn{3}{l}{\textit{Model: TinyLLaMA-1.1B with 4-bit quantization}} \\
+\multicolumn{3}{l}{\textit{Hardware: NVIDIA RTX 3090 (24GB)}} \\
+\bottomrule
+\end{tabular}
+\end{table}

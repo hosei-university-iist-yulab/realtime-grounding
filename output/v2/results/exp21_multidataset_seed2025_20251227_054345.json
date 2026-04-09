@@ -1,0 +1,178 @@
+{
+  "experiment": "multi_dataset_evaluation",
+  "seed": 2025,
+  "timestamp": "2025-12-27T05:43:45.840553",
+  "n_samples_per_dataset": 50,
+  "datasets": {
+    "bdg2": {
+      "name": "BDG2",
+      "description": "Commercial Buildings",
+      "type": "building",
+      "trend": {
+        "accuracy": 1.0,
+        "n_samples": 50,
+        "avg_latency_ms": 493.8488836027682,
+        "per_trend": {
+          "increasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "decreasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "stable": {
+            "accuracy": 1.0,
+            "count": 44
+          },
+          "volatile": {
+            "accuracy": 1.0,
+            "count": 6
+          }
+        }
+      },
+      "grounding": {
+        "value_accuracy": 0.84,
+        "n_samples": 50,
+        "avg_latency_ms": 925.2796437917277
+      }
+    },
+    "ukdale": {
+      "name": "UK-DALE",
+      "description": "Residential (UK)",
+      "type": "building",
+      "trend": {
+        "accuracy": 1.0,
+        "n_samples": 5,
+        "avg_latency_ms": 495.0915927765891,
+        "per_trend": {
+          "increasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "decreasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "stable": {
+            "accuracy": 1.0,
+            "count": 4
+          },
+          "volatile": {
+            "accuracy": 1.0,
+            "count": 1
+          }
+        }
+      },
+      "grounding": {
+        "value_accuracy": 0.8,
+        "n_samples": 5,
+        "avg_latency_ms": 968.7686552060768
+      }
+    },
+    "uci_household": {
+      "name": "UCI-Household",
+      "description": "Household Power (1-min)",
+      "type": "uci",
+      "trend": {
+        "accuracy": 1.0,
+        "n_samples": 50,
+        "avg_latency_ms": 489.45126006612554,
+        "per_trend": {
+          "increasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "decreasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "stable": {
+            "accuracy": 1.0,
+            "count": 23
+          },
+          "volatile": {
+            "accuracy": 1.0,
+            "count": 27
+          }
+        }
+      },
+      "grounding": {
+        "value_accuracy": 0.66,
+        "n_samples": 50,
+        "avg_latency_ms": 959.0023140353151
+      }
+    },
+    "uci_steel": {
+      "name": "UCI-Steel",
+      "description": "Steel Industry (15-min)",
+      "type": "uci",
+      "trend": {
+        "accuracy": 1.0,
+        "n_samples": 50,
+        "avg_latency_ms": 488.6864939238876,
+        "per_trend": {
+          "increasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "decreasing": {
+            "accuracy": 0.0,
+            "count": 0
+          },
+          "stable": {
+            "accuracy": 1.0,
+            "count": 5
+          },
+          "volatile": {
+            "accuracy": 1.0,
+            "count": 45
+          }
+        }
+      },
+      "grounding": {
+        "value_accuracy": 0.78,
+        "n_samples": 50,
+        "avg_latency_ms": 960.8651171042584
+      }
+    },
+    "uci_tetouan": {
+      "name": "UCI-Tetouan",
+      "description": "Tetouan City (10-min)",
+      "type": "uci",
+      "trend": {
+        "accuracy": 0.04,
+        "n_samples": 50,
+        "avg_latency_ms": 488.34141198545694,
+        "per_trend": {
+          "increasing": {
+            "accuracy": 0.0,
+            "count": 23
+          },
+          "decreasing": {
+            "accuracy": 0.0,
+            "count": 25
+          },
+          "stable": {
+            "accuracy": 1.0,
+            "count": 2
+          },
+          "volatile": {
+            "accuracy": 0.0,
+            "count": 0
+          }
+        }
+      },
+      "grounding": {
+        "value_accuracy": 1.0,
+        "n_samples": 50,
+        "avg_latency_ms": 920.3402687422931
+      }
+    }
+  },
+  "summary": {
+    "n_datasets": 5,
+    "avg_trend_accuracy": 0.808,
+    "avg_latency_ms": 491.0839284709655
+  }
+}

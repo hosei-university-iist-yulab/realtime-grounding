@@ -1,0 +1,108 @@
+{
+  "experiment": "causal_validation",
+  "seed": 2026,
+  "timestamp": "2025-12-27T04:04:59.356278",
+  "config": {
+    "n_query_types": 10,
+    "n_repeats": 3,
+    "total_queries": 30
+  },
+  "methods": {
+    "tgp": {
+      "method": "TGP (with causal validation)",
+      "valid_rate": 0.8,
+      "invalid_rate": 0.2,
+      "mean_score": 0.6777777777777777,
+      "mean_latency_ms": 5304.83881876183,
+      "std_latency_ms": 347.9537169777379,
+      "total_queries": 30,
+      "sample_responses": [
+        "After 6 PM, the occupancy rate decreased from 0.2 to 0.1, which resulted in a decrease in energy consumption. The decrease in occupancy is likely due ",
+        "Consumption can be affected by various factors, including weather conditions, household energy use, and energy efficiency measures.\n\nFirstly, weather ",
+        "The energy spike at 2 PM is caused by the increase in demand for electricity due to the increase in temperature. The temperature increased from 38\u00b0C a",
+        "The causal relationship between weekend consumption and consumption on weekdays is as follows:\n\n1. Weekend consumption is lower than weekday consumpti",
+        "To answer the question, the following causal relationships affecting energy consumption are identified:\n\n1. Occupancy: The occupancy of the building i"
+      ],
+      "details": [
+        {
+          "query": "Why did consumption drop after 6 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption higher today than yesterday?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is weekend consumption lower?",
+          "is_valid": true,
+          "score": 0.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption abnormally high right now?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption abnormally high right now?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        }
+      ]
+    },
+    "raw_llm": {
+      "method": "Raw TinyLLaMA (no fine-tuning)",
+      "valid_rate": 0.7333333333333333,
+      "mean_score": 0.6666666666666666,
+      "mean_latency_ms": 5204.4486724383505,
+      "total_queries": 30
+    },
+    "no_validation": {
+      "method": "No Causal Validation",
+      "valid_rate": 1.0,
+      "mean_score": null,
+      "note": "Accepts all responses - cannot detect invalid causal claims"
+    }
+  },
+  "dataset": "uci_tetouan"
+}

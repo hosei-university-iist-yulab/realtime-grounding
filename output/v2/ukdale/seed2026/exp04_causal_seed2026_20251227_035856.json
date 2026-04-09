@@ -1,0 +1,114 @@
+{
+  "experiment": "causal_validation",
+  "seed": 2026,
+  "timestamp": "2025-12-27T03:53:34.253104",
+  "config": {
+    "n_query_types": 10,
+    "n_repeats": 3,
+    "total_queries": 30
+  },
+  "methods": {
+    "tgp": {
+      "method": "TGP (with causal validation)",
+      "valid_rate": 0.6666666666666666,
+      "invalid_rate": 0.3333333333333333,
+      "mean_score": 0.5833333333333334,
+      "mean_latency_ms": 5179.731107107364,
+      "std_latency_ms": 343.52077496548975,
+      "total_queries": 30,
+      "sample_responses": [
+        "After 6 PM, the occupancy level decreased, and the average occupancy for the day was 0.2. This resulted in a lower average occupancy for the day, whic",
+        "To answer the question, consider the following causal relationships:\n\n1. Today's temperature is higher than yesterday's temperature.\n2. The consumptio",
+        "The energy spike at 2 PM was caused by the following factors:\n\n1. Time: 2 PM is the time when the temperature in the room reached 38\u00b0C.\n\n2. Temperatur",
+        "Saturday is a weekend day, which means that there are fewer people in the building and less activity in the building. As a result, the occupancy rate ",
+        "The morning consumption increase is explained by the fact that the occupancy rate is higher than the average occupancy during the day, which means tha"
+      ],
+      "details": [
+        {
+          "query": "Why did consumption drop after 6 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is consumption higher today than yesterday?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "Why is weekend consumption lower?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: hvac_load does not cause occupancy. The causal direction is occupancy -> hvac_load"
+          ]
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption"
+          ]
+        },
+        {
+          "query": "Why is consumption abnormally high right now?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What caused the energy spike at 2 PM?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What explains the morning consumption increase?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: occupancy does not cause hour_of_day. The causal direction is hour_of_day -> occupancy",
+            "Reversed causation: hvac_load does not cause occupancy. The causal direction is occupancy -> hvac_load"
+          ]
+        },
+        {
+          "query": "Why is consumption abnormally high right now?",
+          "is_valid": true,
+          "score": 1.0,
+          "violations": []
+        },
+        {
+          "query": "What could explain the sudden drop in consumption?",
+          "is_valid": false,
+          "score": 0.0,
+          "violations": [
+            "Reversed causation: total_consumption does not cause hvac_load. The causal direction is hvac_load -> total_consumption",
+            "Reversed causation: total_consumption does not cause plug_load. The causal direction is plug_load -> total_consumption"
+          ]
+        }
+      ]
+    },
+    "raw_llm": {
+      "method": "Raw TinyLLaMA (no fine-tuning)",
+      "valid_rate": 0.7,
+      "mean_score": 0.65,
+      "mean_latency_ms": 4962.7373781986535,
+      "total_queries": 30
+    },
+    "no_validation": {
+      "method": "No Causal Validation",
+      "valid_rate": 1.0,
+      "mean_score": null,
+      "note": "Accepts all responses - cannot detect invalid causal claims"
+    }
+  },
+  "dataset": "ukdale"
+}
