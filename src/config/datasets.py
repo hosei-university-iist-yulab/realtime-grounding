@@ -48,13 +48,48 @@ DATASETS = {
         'loader_class': 'UCILoader',
         'loader_args': {'dataset_name': 'tetouan_power'},
     },
+    'uci_appliances': {
+        'name': 'UCI-Appliances',
+        'type': 'uci',
+        'description': 'Residential Appliances (10-min)',
+        'loader_class': 'UCILoader',
+        'loader_args': {'dataset_name': 'appliances_energy'},
+    },
+    'uci_sml2010': {
+        'name': 'UCI-SML2010',
+        'type': 'uci',
+        'description': 'Smart Home Sensors (15-min)',
+        'loader_class': 'UCILoader',
+        'loader_args': {'dataset_name': 'sml2010'},
+    },
+    'uci_occupancy': {
+        'name': 'UCI-Occupancy',
+        'type': 'uci',
+        'description': 'Smart Office CO2 (1-min)',
+        'loader_class': 'UCILoader',
+        'loader_args': {'dataset_name': 'occupancy_detection'},
+    },
+    'uci_airquality': {
+        'name': 'UCI-AirQuality',
+        'type': 'uci',
+        'description': 'IoT Gas Sensor (1-h)',
+        'loader_class': 'UCILoader',
+        'loader_args': {'dataset_name': 'air_quality'},
+    },
+    'uci_eld': {
+        'name': 'UCI-ELD',
+        'type': 'uci',
+        'description': 'Consumer Electricity Load (15-min)',
+        'loader_class': 'UCILoader',
+        'loader_args': {'dataset_name': 'electricity_loads'},
+    },
 }
 
 # Default seeds for reproducibility
 DEFAULT_SEEDS = [2025, 2026]
 
 # Dataset order for tables
-DATASET_ORDER = ['bdg2', 'ukdale', 'uci_household', 'uci_steel', 'uci_tetouan']
+DATASET_ORDER = ['bdg2', 'ukdale', 'uci_household', 'uci_steel', 'uci_tetouan', 'uci_appliances', 'uci_sml2010', 'uci_occupancy', 'uci_airquality', 'uci_eld']
 
 
 def get_loader(dataset_key: str):

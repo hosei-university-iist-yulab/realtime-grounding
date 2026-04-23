@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_airquality",
+  "seed": 2026,
+  "timestamp": "2026-04-23T16:04:42.790017",
+  "n_cases": 88,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.8295454545454546,
+      "trend_accuracy": 0.6590909090909091,
+      "mean_latency_ms": 5408.775208406785,
+      "std_latency_ms": 450.184506622139,
+      "n_cases": 88,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 9.8 kWh, a current reading of 3.6 kWh, and a minimum of -2.3 kWh and a maximum",
+        "The current sensor readings indicate that the energy consumption pattern is stable and consistent. The mean consumption is 9.4 kWh, which is within the acceptable range of 5-15 kWh. The current readin",
+        "The current sensor readings indicate a steady increase in energy consumption over the past few weeks. The mean consumption is 13.2 kWh, which is higher than the previous reading of 13.2 kWh. The curre",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 6.3 kWh, a current reading of 2.0 kWh, and a minimum of -18.0 kWh, and a maximum of 20.9 ",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a high consumption rate. The mean consumption is 6.5 kWh, which is higher than the current reading of 6.0 kW"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.17613636363636365,
+      "trend_accuracy": 0.19318181818181818,
+      "mean_latency_ms": 5113.358903083612,
+      "n_cases": 88,
+      "sample_responses": [
+        "Sure! Here's the current energy consumption pattern for sample_8532:\n\n| Time (UTC) | Energy (kWh) | Energy Consumption (%) |\n|-------------|-------------|-----------------------|\n| 00:00:00 | 0.00 | 0",
+        "I do not have access to the specific energy consumption pattern of the building sample_7710. However, in general, energy consumption patterns can vary depending on various factors such as building des",
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_5855:\n\n1. Daytime: The building is typically in use during the day, with the majority of energy consumption comin",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_7611.\n\nSample_7611 is a sample of a typical residential building in the United States. The building has a total",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_3847:\n\n1. Daytime: The energy consumption pattern for daytime is as follows:\n\n- 10:00 AM to 12:00 PM: The energy consumpti"
+      ]
+    }
+  }
+}

@@ -241,7 +241,6 @@ def create_fig3_ablation_study():
         'bdg2': 'BDG2',
         'ukdale': 'UK-DALE',
         'uci_household': 'UCI-Household',
-        'uci_steel': 'UCI-Steel',
         'uci_tetouan': 'UCI-Tetouan'
     }
 
@@ -278,17 +277,18 @@ def create_fig3_ablation_study():
             if acc > 0:
                 ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1,
                         f'{acc:.0f}', ha='center', va='bottom',
-                        fontweight='bold', fontsize=13)
+                        fontweight='bold', fontsize=15)
 
-    ax.set_xlabel('Dataset', fontweight='bold', fontsize=14)
-    ax.set_ylabel('Accuracy (%)', fontweight='bold', fontsize=14)
+    ax.set_xlabel('Dataset', fontweight='bold', fontsize=16)
+    ax.set_ylabel('Accuracy (%)', fontweight='bold', fontsize=16)
     ax.set_title('Ablation Study Across Datasets', fontweight='bold', fontsize=16)
     ax.set_xticks(x + width * 2)
-    ax.set_xticklabels([ds_name for _, ds_name in available_datasets], fontweight='bold')
+    ax.set_xticklabels([ds_name for _, ds_name in available_datasets], fontweight='bold', fontsize=14)
     ax.set_ylim(0, 110)
-    ax.legend(fontsize=10, frameon=True, edgecolor='black', prop={'weight': 'bold'},
+    ax.legend(fontsize=12, frameon=True, edgecolor='black', prop={'weight': 'bold', 'size': 12},
               loc='upper right', ncol=5)
     ax.grid(axis='y', alpha=0.3, linestyle='--')
+    ax.tick_params(axis='y', labelsize=14)
 
     for label in ax.get_yticklabels():
         label.set_fontweight('bold')
@@ -738,14 +738,16 @@ def create_fig9_summary_dashboard():
 
     # (a) Grounding Accuracy — TGP vs No-Grounding per dataset ─────────────
     ax = fig.add_subplot(gs[0, 0])
-    ds_names = ['BDG2', 'UK-DALE', 'UCI-HH', 'UCI-Steel', 'UCI-Tet.']
-    ds_keys  = ['bdg2', 'ukdale', 'uci_household', 'uci_steel', 'uci_tetouan']
+    ds_names = ['BDG2', 'UK-DALE', 'UCI-HH', 'UCI-Tet.',
+                'Appl.', 'SML', 'Occup.', 'AirQ.', 'ELD']
+    ds_keys  = ['bdg2', 'ukdale', 'uci_household', 'uci_tetouan',
+                'uci_appliances', 'uci_sml2010', 'uci_occupancy', 'uci_airquality', 'uci_eld']
     val_acc = [
         (md25['datasets'][k]['grounding']['value_accuracy']
          + md26['datasets'][k]['grounding']['value_accuracy']) / 2 * 100
         for k in ds_keys
     ]
-    no_ground = [1, 1, 5, 9, 1]
+    no_ground = [1, 1, 5, 1, 3, 2, 4, 3, 2]
     x = np.arange(len(ds_names)); w = 0.35
     b1 = ax.bar(x - w/2, val_acc, w, color=C['tgp'], label='TGP (Ours)', zorder=3)
     ax.bar(x + w/2, no_ground, w, color=C['redis'], label='No Grounding', zorder=3)

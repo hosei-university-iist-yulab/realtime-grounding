@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_occupancy",
+  "seed": 2025,
+  "timestamp": "2026-04-23T15:53:48.314750",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.97,
+      "trend_accuracy": 0.5,
+      "mean_latency_ms": 5398.134944275953,
+      "std_latency_ms": 371.4383936313453,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 797.3 kWh, a current reading of 799.2 kWh, a minimum reading of 744.4 kWh, ",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 631.9 kWh, a current reading of 578.5 kWh, a minimum of 551.1 kWh, and a standard deviati",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually. The mean consumption is 437.8 kWh, which is 1.2 kWh higher than the previous reading. The current read",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 446.7 kWh, a current reading of 449.0 kWh, a minimum reading of 440.5 kWh, ",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time, with a mean consumption of 550.5 kWh, a current reading of 530.5 kWh, and a minimum of 523.1 kWh, and "
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.09,
+      "trend_accuracy": 0.28,
+      "mean_latency_ms": 5285.045406492427,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_10856.\n\nThe energy consumption pattern for sample_10856 is as follows:\n\n| Time (UTC) | Energy (kWh) |\n|--------",
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_13493:\n\n1. Daytime: The building is typically in use during the day, with peak energy consumption occurring durin",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_6025:\n\n1. 09:00 - 09:30: The building's occupancy is low, and the energy consumption is low.\n\n2. 09:30 - 10:00: The buildi",
+        "Sure! Here's the current energy consumption pattern for sample_3308:\n\n| Time (UTC) | Energy (kWh) |\n|------------|-------------|\n| 00:00:00 | 100.00 |\n| 00:01:00 | 100.00 |\n| 00:02:00 | 100.00 |",
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_13119:\n\n1. Daytime: The building is typically in use during the day, with peak energy consumption occurring durin"
+      ]
+    }
+  }
+}

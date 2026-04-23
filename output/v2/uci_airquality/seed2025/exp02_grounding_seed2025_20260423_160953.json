@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_airquality",
+  "seed": 2025,
+  "timestamp": "2026-04-23T15:53:49.988203",
+  "n_cases": 88,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.7443181818181818,
+      "trend_accuracy": 0.6590909090909091,
+      "mean_latency_ms": 5344.591762854675,
+      "std_latency_ms": 481.33010267153963,
+      "n_cases": 88,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 12.1 kWh, a current reading of 24.1 kWh, and a standard deviation of 6.4 kWh. ",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 13.5 kWh, a current reading of 10.7 kWh, and a minimum of -2.1 kWh, and a maxi",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a moderate consumption level. The mean consumption is 9.5 kWh, which is lower than the minimum and maximum c",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a high consumption rate. The mean consumption is 11.7 kWh, which is higher than the minimum consumption of -",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a high standard deviation. This suggests that there may be significant fluctuations in energy consumpt"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.1590909090909091,
+      "trend_accuracy": 0.25,
+      "mean_latency_ms": 5461.910631637279,
+      "n_cases": 88,
+      "sample_responses": [
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_535.\n\nThe energy consumption pattern for sample_535 is as follows:\n\n| Time (UTC) | Energy (kWh) |\n|------------",
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_2561:\n\n1. Daytime: The building is typically in use during the day, with a mix of occupancy and non-occupancy per",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_8203:\n\n1. 10:00 AM - 10:30 AM: The building's HVAC system is operating at full capacity, with the temperature set to 72\u00b0F ",
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_4243:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumption c",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_401:\n\n1. Day 1: The building has been operating for 24 hours, and the energy consumption pattern is as follows:\n   - Day 1"
+      ]
+    }
+  }
+}

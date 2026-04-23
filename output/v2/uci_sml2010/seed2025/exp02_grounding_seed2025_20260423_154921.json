@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_sml2010",
+  "seed": 2025,
+  "timestamp": "2026-04-23T15:44:05.003866",
+  "n_cases": 26,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 1.0,
+      "trend_accuracy": 0.6153846153846154,
+      "mean_latency_ms": 5277.836684451008,
+      "std_latency_ms": 703.2392907453105,
+      "n_cases": 26,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a moderate consumption level. The mean consumption is 17.9 kWh, which is lower than the average consumption ",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 20.9 kWh, a current reading of 23.7 kWh, a minimum of 12.9 kWh, and a stand",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a moderate level of consumption. The mean consumption is 19.7 kWh, which is within the acceptable range for ",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a high consumption rate. The mean consumption is 12.8 kWh, which is higher than the minimum and maximum cons",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 21.0 kWh, a current reading of 18.3 kWh, and a minimum consumption of 15.9 kWh"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.019230769230769232,
+      "trend_accuracy": 0.23076923076923078,
+      "mean_latency_ms": 5477.285020975754,
+      "n_cases": 26,
+      "sample_responses": [
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_2292:\n\n1. Day 1: 1000 kWh\n2. Day 2: 1000 kWh\n3. Day 3: 1000 kWh\n4. Day 4: 1000 kWh\n5. Day 5: 1000 kWh\n6. Day 6",
+        "Sure! Here's a breakdown of the current energy consumption pattern for the sample_1576 building:\n\n1. Daytime: The building typically operates at a lower energy consumption level during the daytime. Th",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_135:\n\n1. Daytime: The average energy consumption for the daytime is 11.4 kWh, which is 1.4% of the total energy consumptio",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_663.\n\nSample_663 is a building located in the city of New York, USA. The building has a total energy consumptio",
+        "Sure! The current energy consumption pattern for sample_453 is as follows:\n\n- The first 10 minutes of the day (06:00 AM to 07:00 AM) are the most energy-intensive, with a peak energy consumption of 14"
+      ]
+    }
+  }
+}

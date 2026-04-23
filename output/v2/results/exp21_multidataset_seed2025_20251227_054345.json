@@ -168,6 +168,46 @@
         "n_samples": 50,
         "avg_latency_ms": 920.3402687422931
       }
+    },
+    "uci_appliances": {
+      "name": "Uci-Appliances",
+      "grounding": {
+        "value_accuracy": 0.775,
+        "trend_accuracy": 0.49,
+        "context_relevance": 1.0
+      }
+    },
+    "uci_sml2010": {
+      "name": "Uci-Sml2010",
+      "grounding": {
+        "value_accuracy": 1.0,
+        "trend_accuracy": 0.6153846153846154,
+        "context_relevance": 1.0
+      }
+    },
+    "uci_occupancy": {
+      "name": "Uci-Occupancy",
+      "grounding": {
+        "value_accuracy": 0.97,
+        "trend_accuracy": 0.5,
+        "context_relevance": 1.0
+      }
+    },
+    "uci_airquality": {
+      "name": "Uci-Airquality",
+      "grounding": {
+        "value_accuracy": 0.7443181818181818,
+        "trend_accuracy": 0.6590909090909091,
+        "context_relevance": 1.0
+      }
+    },
+    "uci_eld": {
+      "name": "Uci-Eld",
+      "grounding": {
+        "value_accuracy": 0.745,
+        "trend_accuracy": 0.6,
+        "context_relevance": 1.0
+      }
     }
   },
   "summary": {

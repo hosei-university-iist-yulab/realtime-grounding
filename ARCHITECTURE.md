@@ -1086,7 +1086,6 @@ Legend:
 
 ---
 
-**Last Updated**: 2026-04-09
+**Last Updated**: 2025-12-25
 **Maintainer**: Franck Junior Aboya Messou
-**Contact**: franckjunioraboya.messou@ieee.org
-
+**Contact**: faboya@student.ubc.ca

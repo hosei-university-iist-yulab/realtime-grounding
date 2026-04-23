@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_appliances",
+  "seed": 2025,
+  "timestamp": "2026-04-23T15:44:01.658820",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.775,
+      "trend_accuracy": 0.49,
+      "mean_latency_ms": 5972.021572447848,
+      "std_latency_ms": 379.6950414234591,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate a steady increase in energy consumption, with a peak of 51.0 kWh and a minimum of -91.8 kWh. The standard deviation indicates that the energy consumption pattern i",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a significant range of values. The mean consumption is 88.8 kWh, which is higher than the minimum and ",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a mean consumption of 84.1 kWh, a current reading of 40.0 kWh, and a minimum reading of -34.5 kWh, an",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 66.8 kWh, which is higher than the current reading of 50.0 kWh. The minimum re",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a range of consumption values from -34.2 kWh to 180.0 kWh. The standard deviation indicates that the e"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.04,
+      "trend_accuracy": 0.26,
+      "mean_latency_ms": 5697.386167100631,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_1508:\n\n1. Day 1: The first day of the sample, the energy consumption pattern is as follows:\n\n| Time (UTC) | Energy (kWh) |",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_14099.\n\nSample_14099 is a sample of a typical residential building in the United States. The building has a tot",
+        "Sure! The current energy consumption pattern for sample_6324 is as follows:\n\n1. 10:00 AM: The system starts to consume energy.\n2. 10:10 AM: The system reaches a peak energy consumption of 100 kW.\n3. 1",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_17226 building.\n\nThe sample_17226 building has a total energy consumption of 1,722.6 kilowatt-hours (kWh) f",
+        "Sure! Here's the current energy consumption pattern for building sample_2615:\n\n1. Day 1: 1200 KWh\n2. Day 2: 1100 KWh\n3. Day 3: 1000 KWh\n4. Day 4: 900 KWh\n5. Day 5: 800 KWh\n6. Day 6: 700"
+      ]
+    }
+  }
+}

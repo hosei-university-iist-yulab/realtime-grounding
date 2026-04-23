@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_eld",
+  "seed": 2025,
+  "timestamp": "2026-04-23T16:09:41.152881",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.745,
+      "trend_accuracy": 0.6,
+      "mean_latency_ms": 5358.454157176893,
+      "std_latency_ms": 553.94477979505,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 891.5 kWh, a current reading of 772.0 kWh, and a minimum of 220.8 kWh, and a m",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a high mean consumption of 776.3 kWh and a low standard deviation of 191.1 kWh. This suggests that t",
+        "The current sensor readings indicate that the energy consumption pattern is variable and fluctuating. The mean consumption is 761.3 kWh, which is higher than the current reading of 857.9 kWh. The mini",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a significant range of values. The mean consumption is 753.3 kWh, which is significantly higher than t",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a high mean consumption (937.9 kWh) and a low standard deviation (297.9 kWh). The data suggests that the energy"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.02,
+      "trend_accuracy": 0.17,
+      "mean_latency_ms": 5267.978974250145,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_63353:\n\n1. Day 1: 12:00 AM - 12:00 PM - 12:00 PM - 12:00 PM - 12:00 PM - 12:00 PM - 12:00 PM - 12:00 PM - 12:",
+        "Sure! The current energy consumption pattern for sample_74790 is as follows:\n\n1. Day 1: 1000 kWh\n2. Day 2: 1200 kWh\n3. Day 3: 1300 kWh\n4. Day 4: 1500 kWh\n5. Day 5: 1600 kWh\n6. Day 6: 1",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_65932 building.\n\nThe sample_65932 building is a two-story, 2,000 square meter building located in the city ",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_74798.\n\nThe energy consumption pattern for sample_74798 can be found in the \"energy consumption\" section of the",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern of sample_52529.\n\nThe energy consumption pattern of sample_52529 is as follows:\n\n| Time (UTC) | Energy (kWh) |\n|----------"
+      ]
+    }
+  }
+}
