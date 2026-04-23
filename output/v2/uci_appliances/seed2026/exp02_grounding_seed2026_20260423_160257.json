@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_appliances",
+  "seed": 2026,
+  "timestamp": "2026-04-23T15:44:03.455184",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.75,
+      "trend_accuracy": 0.53,
+      "mean_latency_ms": 5547.8595637576655,
+      "std_latency_ms": 398.85776447140756,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 71.8 kWh and a current reading of 50.0 kWh. The standard deviation, which meas",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable with a slight increase in consumption during the daytime and a slight decrease in consumption at night. The",
+        "The current sensor readings indicate a high energy consumption pattern, with a mean consumption of 53.9 kWh, a current reading of 90.0 kWh, and a minimum reading of -60.5 kWh, and a maximum reading of",
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a wide range of consumption values. The mean consumption is 116.9 kWh, which is slightly higher than t",
+        "The current sensor readings indicate a steady increase in energy consumption, with the mean consumption being 130.1 kWh, the current reading being 50.0 kWh, and the minimum reading being -143.1 kWh, a"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.035,
+      "trend_accuracy": 0.27,
+      "mean_latency_ms": 5404.437714570668,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_16884:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumption ",
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_16054:\n\n1. Day 1: 11.7 kWh\n2. Day 2: 11.9 kWh\n3. Day 3: 12.1 kWh\n4. Day 4: 12.3 kWh\n5. Day 5: 12.4 kWh\n6. Day",
+        "Sure! The current energy consumption pattern of building sample_15165 is not specified in the given text. However, based on the information provided in the text, it can be inferred that the building i",
+        "Sure! The current energy consumption pattern for sample_7599 is as follows:\n\n1. The first 10 minutes of the day are typically the most energy-intensive, with peak consumption around 9:30 am.\n\n2. Durin",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_14795 building.\n\nThe building's energy consumption pattern is as follows:\n\n- The building's energy consumpt"
+      ]
+    }
+  }
+}

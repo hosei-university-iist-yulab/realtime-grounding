@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_sml2010",
+  "seed": 2026,
+  "timestamp": "2026-04-23T15:44:06.869920",
+  "n_cases": 26,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.9423076923076923,
+      "trend_accuracy": 0.5769230769230769,
+      "mean_latency_ms": 5498.772604587989,
+      "std_latency_ms": 481.45539139770204,
+      "n_cases": 26,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 16.2 kWh, a current reading of 13.2 kWh, and a minimum consumption of 11.5 kWh",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 19.9 kWh, a current reading of 20.6 kWh, a minimum of 16.5 kWh, and a stand",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 19.0 kWh, a current reading of 18.8 kWh, and a minimum consumption of 10.6 kWh",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a typical household's usage. The mean consumption is 18.3 kWh, which is within the average consumption of a ",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 17.9 kWh, a current reading of 16.7 kWh, and a minimum consumption of 14.3 kWh"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.019230769230769232,
+      "trend_accuracy": 0.2692307692307692,
+      "mean_latency_ms": 5254.6130682413395,
+      "n_cases": 26,
+      "sample_responses": [
+        "Sure! Here's a breakdown of the current energy consumption pattern for sample_597:\n\n1. Day 1: The building is at 100% occupancy, which means there are 100 occupants in the building. The energy consump",
+        "Sure! Here's the current energy consumption pattern for sample_2146:\n\n| Time (UTC) | Energy (kWh) |\n|-------------|-------------|\n| 00:00:00 | 1000.0000 |\n| 00:01:00 | 1000.0000 |\n| 00:02:00 |",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for building sample_1400.\n\nCurrent Energy Consumption Pattern:\n\n1. 09:00 - 09:30: The building's HVAC system kicks on to m",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the building sample_2259.\n\nCurrent Energy Consumption Pattern:\n\n1. 09:00 - 09:30: The building's energy consumption is",
+        "Sure! Here's a breakdown of the current energy consumption pattern for the building sample_252:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumptio"
+      ]
+    }
+  }
+}

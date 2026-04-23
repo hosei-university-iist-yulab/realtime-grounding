@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_occupancy",
+  "seed": 2026,
+  "timestamp": "2026-04-23T16:04:41.968766",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.95,
+      "trend_accuracy": 0.59,
+      "mean_latency_ms": 5860.304460802581,
+      "std_latency_ms": 372.98579363064187,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually. The mean consumption is 445.5 kWh, which is 3.4 kWh higher than the previous reading. The current read",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 442.8 kWh, a current reading of 441.0 kWh, and a minimum of 435.7 kWh, and a m",
+        "The current sensor readings indicate that the energy consumption pattern is consistent with a high consumption rate. The mean consumption is 440.8 kWh, which is higher than the current reading of 439.",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 497.0 kWh, which is higher than the current reading of 479.0 kWh. The minimum ",
+        "The current sensor readings indicate that the energy consumption pattern is stable, with a mean consumption of 544.4 kWh, a current reading of 530.7 kWh, a minimum reading of 520.7 kWh, and a standard"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.045,
+      "trend_accuracy": 0.35,
+      "mean_latency_ms": 5852.053994981106,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! Here's the current energy consumption pattern for sample_3281:\n\n1. 09:00:00 - The energy consumption for sample_3281 starts at 09:00:00.\n2. 09:01:00 - The energy consumption for sample_3281 incr",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_4467.\n\nSample_4467 is a sample of a residential building in the United States. The building has been monitored ",
+        "The current energy consumption pattern of sample_7145 is not specified in the given text.",
+        "Sure! Here's the current energy consumption pattern for sample_2834:\n\n1. Day 1: 1000 kWh\n2. Day 2: 1200 kWh\n3. Day 3: 1500 kWh\n4. Day 4: 1800 kWh\n5. Day 5: 2100 kWh\n6. Day 6: 24",
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_13138:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumption "
+      ]
+    }
+  }
+}

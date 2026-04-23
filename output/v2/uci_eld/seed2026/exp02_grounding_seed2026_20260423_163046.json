@@ -1,0 +1,36 @@
+{
+  "experiment": "grounding_accuracy",
+  "dataset": "uci_eld",
+  "seed": 2026,
+  "timestamp": "2026-04-23T16:09:41.156859",
+  "n_cases": 100,
+  "methods": {
+    "tgp": {
+      "mean_value_accuracy": 0.78,
+      "trend_accuracy": 0.43,
+      "mean_latency_ms": 5473.691037297249,
+      "std_latency_ms": 277.786889732578,
+      "n_cases": 100,
+      "sample_responses": [
+        "The current sensor readings indicate that the energy consumption pattern is highly variable, with a wide range of consumption values. The mean consumption is 845.3 kWh, which is significantly higher t",
+        "The current sensor readings indicate that the energy consumption pattern is generally stable, with a high level of consumption during the daytime and a low level of consumption during the nighttime. T",
+        "The current sensor readings indicate that the energy consumption pattern is increasing over time. The mean consumption is 1038.5 kWh, which is higher than the current reading of 1240.1 kWh. The standa",
+        "The current sensor readings indicate that the energy consumption pattern is increasing gradually, with a mean consumption of 712.8 kWh, a current reading of 871.1 kWh, and a minimum of 262.3 kWh, and ",
+        "The current sensor readings indicate that the energy consumption pattern is relatively stable, with a mean consumption of 862.2 kWh, a current reading of 957.0 kWh, and a minimum of 524.2 kWh, and a m"
+      ]
+    },
+    "no_grounding": {
+      "mean_value_accuracy": 0.045,
+      "trend_accuracy": 0.21,
+      "mean_latency_ms": 5244.640657366253,
+      "n_cases": 100,
+      "sample_responses": [
+        "Sure! Here's a breakdown of the current energy consumption pattern for building sample_5580:\n\n1. Daytime: The building is typically in use during the day, with the majority of the energy consumption c",
+        "The current energy consumption pattern for sample_98600 is not specified in the given text.",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for the sample_14578.\n\nThe sample_14578 has a total energy consumption of 1,200 kWh over the last 24 hours. The energy con",
+        "Sure! The current energy consumption pattern for sample_65501 is as follows:\n\n- The first 10 minutes of the day are typically the most energy-intensive, with a peak energy consumption of around 1000 k",
+        "Sure, I'd be happy to provide you with the current energy consumption pattern for sample_69275.\n\nSample_69275 is a sample of a residential building in the United States. The building is equipped with "
+      ]
+    }
+  }
+}
