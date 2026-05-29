@@ -1,0 +1,53 @@
+{
+  "experiment": "backbone_value_grounding_zeroshot",
+  "timestamp": "2026-05-28T06:39:18.761357",
+  "backbone_key": "qwen0p5",
+  "backbone_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_queries": 50,
+  "value_accuracy": 1.0,
+  "value_correct": 50,
+  "memory_quantized_mb": 436.3,
+  "memory_peak_mb": 601.0,
+  "model_load_seconds": 54.0,
+  "latency_ms": {
+    "mean": 2405.839557037689,
+    "std": 38.93143403199645,
+    "p50": 2401.4686590526253,
+    "p95": 2454.5245325076394,
+    "p99": 2566.852103883866
+  },
+  "sample_responses": [
+    {
+      "value": 275.4054960234679,
+      "response": " The current power consumption is 275.4 kW. \n\nExplanation:\nThe answer is correct because it directly states that the current reading of 275.4 kW represents the total electrical energy consumed by the ",
+      "correct": true,
+      "latency_ms": 2458.1
+    },
+    {
+      "value": 51.07852480292435,
+      "response": " The current power consumption is 51.1 kW. \n\nExplanation:\nThe answer is correct because it directly states that the current reading of 51.1 kW represents the total electrical energy consumed by the de",
+      "correct": true,
+      "latency_ms": 2450.1
+    },
+    {
+      "value": 279.40122074139475,
+      "response": " The current power consumption is 279.4 kW. \n\nExplanation:\nThe question asks for the current power consumption, which was measured at 279.4 kW. Since no other information about the device's operation ",
+      "correct": true,
+      "latency_ms": 2403.5
+    },
+    {
+      "value": 325.83244632003857,
+      "response": " The current power consumption is 325.8 kW. \n\nExplanation:\nThe question asks for the current power consumption, which was measured at 325.8 kW. Since no other information about the device's operation ",
+      "correct": true,
+      "latency_ms": 2399.3
+    },
+    {
+      "value": 166.32668561301927,
+      "response": " The current power consumption is 166.3 kW. \n\nExplanation:\nThe question asks for the current power consumption, which was measured at 166.3 kW. Since no other information about the device's operation ",
+      "correct": true,
+      "latency_ms": 2418.7
+    }
+  ],
+  "fine_tuned": false,
+  "notes": "Zero-shot (no LoRA). Same prompt template across backbones; sensor values uniformly sampled."
+}

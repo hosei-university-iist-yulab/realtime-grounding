@@ -1,0 +1,36 @@
+{
+  "experiment": "cpu_latency_benchmark",
+  "timestamp": "2026-05-28T06:15:11.627748",
+  "device": "cpu",
+  "platform": "server x86 CPU (CUDA hidden)",
+  "backbone": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "lora_loaded": true,
+  "n_queries": 10,
+  "max_new_tokens": 50,
+  "model_load_seconds": 93.6,
+  "mem_rss_mb_start": 786.9,
+  "mem_rss_mb_after_load": 5038.2,
+  "mem_rss_mb_final": 5080.9,
+  "torch_num_threads": 32,
+  "latency_ms": {
+    "mean": 71125.0075165648,
+    "std": 1077.8150818908002,
+    "p50": 70874.5115440106,
+    "p95": 72962.47071744874,
+    "p99": 73850.69390343502,
+    "min": 70198.71868402697,
+    "max": 74072.74969993159,
+    "raw_ms": [
+      70336.6,
+      70902.5,
+      71605.5,
+      70846.5,
+      71388.3,
+      71066.9,
+      74072.7,
+      70198.7,
+      70495.4,
+      70337.0
+    ]
+  }
+}

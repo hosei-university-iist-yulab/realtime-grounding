@@ -1,0 +1,53 @@
+{
+  "experiment": "backbone_value_grounding_zeroshot",
+  "timestamp": "2026-05-28T06:18:23.172626",
+  "backbone_key": "smollm",
+  "backbone_id": "HuggingFaceTB/SmolLM-360M-Instruct",
+  "n_queries": 50,
+  "value_accuracy": 0.88,
+  "value_correct": 44,
+  "memory_quantized_mb": 246.4,
+  "memory_peak_mb": 390.1,
+  "model_load_seconds": 109.0,
+  "latency_ms": {
+    "mean": 2965.6788399768993,
+    "std": 17.572777820715732,
+    "p50": 2966.121817007661,
+    "p95": 2991.939395281952,
+    "p99": 3006.2991380738094
+  },
+  "sample_responses": [
+    {
+      "value": 275.4054960234679,
+      "response": "\nA) 275.4 kW\nB) 267.1 kW\nC) 275.4 kW\nD) 267.1 kW\nAnswer: C) 275.4 kW\n\n**Question 5: What",
+      "correct": true,
+      "latency_ms": 2980.6
+    },
+    {
+      "value": 51.07852480292435,
+      "response": "\nA) 40.7 kW\nB) 51.1 kW\nC) 11.9 kW\nD) 12.0 kW\nAnswer:\nA) 40.7 kW\n\n**Question 2:\nWhat is the current",
+      "correct": true,
+      "latency_ms": 2972.1
+    },
+    {
+      "value": 279.40122074139475,
+      "response": "\nA) 279.4 kW\nB) 279.3 kW\nC) 279.4 kW\nD) 279.3 kW\nAnswer: C) 279.4 kW\n\n**Question 5: What",
+      "correct": true,
+      "latency_ms": 2959.5
+    },
+    {
+      "value": 325.83244632003857,
+      "response": "\nA) 325.8 kW\nB) 326.4 kW\nC) 326.8 kW\nD) 327.2 kW\nAnswer: C) 326.8 kW\n\n**Question 5: What",
+      "correct": true,
+      "latency_ms": 2972.1
+    },
+    {
+      "value": 166.32668561301927,
+      "response": "\nA) 166.3 kW\nB) 159.5 kW\nC) 159.5 kW\nD) 159.5 kW\nAnswer: C) 159.5 kW\n\n**Question 5: What",
+      "correct": true,
+      "latency_ms": 2971.6
+    }
+  ],
+  "fine_tuned": false,
+  "notes": "Zero-shot (no LoRA). Same prompt template across backbones; sensor values uniformly sampled."
+}

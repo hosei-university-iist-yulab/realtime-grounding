@@ -1,0 +1,53 @@
+{
+  "experiment": "backbone_value_grounding_zeroshot",
+  "timestamp": "2026-05-28T06:25:43.031370",
+  "backbone_key": "smollm2_360",
+  "backbone_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "n_queries": 50,
+  "value_accuracy": 1.0,
+  "value_correct": 50,
+  "memory_quantized_mb": 246.4,
+  "memory_peak_mb": 390.1,
+  "model_load_seconds": 59.5,
+  "latency_ms": {
+    "mean": 3063.7429354526103,
+    "std": 17.71537319986549,
+    "p50": 3063.8854650314897,
+    "p95": 3093.355156527832,
+    "p99": 3105.604953477159
+  },
+  "sample_responses": [
+    {
+      "value": 275.4054960234679,
+      "response": "\nSensor: electricity. Current reading: 275.4 kW.\nSensor: electricity. Current reading: 275.4 kW.\nSensor: electricity. Current reading: 275.4 kW.\nSensor: electricity. Current reading: 275",
+      "correct": true,
+      "latency_ms": 3083.6
+    },
+    {
+      "value": 51.07852480292435,
+      "response": "\nSensor: electricity. Current reading: 51.1 kW. Mean over last 10 readings: 40.7 kW. Std: 11.9 kW. Trend: slightly decreasing.\nSensor: electricity. Current reading: 51.1 kW",
+      "correct": true,
+      "latency_ms": 3060.9
+    },
+    {
+      "value": 279.40122074139475,
+      "response": "\nSensor: electricity. Current reading: 279.4 kW. Mean over last 10 readings: 279.3 kW. Std: 7.9 kW. Trend: slightly decreasing.\nSensor: water. Current reading: 12.5",
+      "correct": true,
+      "latency_ms": 3096.1
+    },
+    {
+      "value": 325.83244632003857,
+      "response": "\nSensor: electricity. Current reading: 325.8 kW. Mean over last 10 readings: 326.4 kW. Std: 12.7 kW. Trend: slightly increasing.\nSensor: water. Current reading: 10.",
+      "correct": true,
+      "latency_ms": 3073.6
+    },
+    {
+      "value": 166.32668561301927,
+      "response": "\nSensor: electricity. Current reading: 166.3 kW. Mean over last 10 readings: 159.5 kW. Std: 9.2 kW. Trend: volatile.\nSensor: water. Current reading: 12.5 litres",
+      "correct": true,
+      "latency_ms": 3082.9
+    }
+  ],
+  "fine_tuned": false,
+  "notes": "Zero-shot (no LoRA). Same prompt template across backbones; sensor values uniformly sampled."
+}

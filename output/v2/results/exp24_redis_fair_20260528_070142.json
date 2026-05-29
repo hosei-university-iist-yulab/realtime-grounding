@@ -1,0 +1,42 @@
+{
+  "experiment": "fair_redis_benchmark",
+  "timestamp": "2026-05-28T07:01:41.928028",
+  "redis_version": "8.8.0",
+  "redis_persistence": "AOF off, snapshot off (save \"\")",
+  "payload_bytes": 64,
+  "n_warmup_ops": 1000,
+  "n_timed_queries": 10000,
+  "client_lib": "redis-py 7.1.0",
+  "tgb": {
+    "config": "TGB (in-process, Welford)",
+    "n_queries": 10000,
+    "ops_per_query": "get_latest(10) + get_statistics()",
+    "mean_ms": 0.004371718084439635,
+    "p50_ms": 0.004330184310674667,
+    "p95_ms": 0.004410045221447945,
+    "p99_ms": 0.0048899115063250065,
+    "std_ms": 0.0008548858625391229
+  },
+  "redis_tcp": {
+    "config": "Redis (loopback TCP, no pipe)",
+    "n_queries": 10000,
+    "ops_per_query": 10,
+    "mean_ms": 0.6570827461313457,
+    "p50_ms": 0.658314093016088,
+    "p95_ms": 0.9183961316011845,
+    "p99_ms": 1.1530543095432226,
+    "std_ms": 0.19802010355760574
+  },
+  "redis_uds": {
+    "config": "Redis (Unix socket, pipelined)",
+    "n_queries": 10000,
+    "ops_per_query": 10,
+    "mean_ms": 0.15358395415823906,
+    "p50_ms": 0.1438420731574297,
+    "p95_ms": 0.26354286819696426,
+    "p99_ms": 0.2840069262310863,
+    "std_ms": 0.05002175995932952
+  },
+  "speedup_tgb_vs_tcp": 150.30309215731833,
+  "speedup_tgb_vs_uds": 35.13125759524482
+}

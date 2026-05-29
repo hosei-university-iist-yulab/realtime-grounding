@@ -738,16 +738,16 @@ def create_fig9_summary_dashboard():
 
     # (a) Grounding Accuracy — TGP vs No-Grounding per dataset ─────────────
     ax = fig.add_subplot(gs[0, 0])
-    ds_names = ['BDG2', 'UK-DALE', 'UCI-HH', 'UCI-Tet.',
+    ds_names = ['BDG2', 'UK-DALE', 'UCI-HH',
                 'Appl.', 'SML', 'Occup.', 'AirQ.', 'ELD']
-    ds_keys  = ['bdg2', 'ukdale', 'uci_household', 'uci_tetouan',
+    ds_keys  = ['bdg2', 'ukdale', 'uci_household',
                 'uci_appliances', 'uci_sml2010', 'uci_occupancy', 'uci_airquality', 'uci_eld']
     val_acc = [
         (md25['datasets'][k]['grounding']['value_accuracy']
          + md26['datasets'][k]['grounding']['value_accuracy']) / 2 * 100
         for k in ds_keys
     ]
-    no_ground = [1, 1, 5, 1, 3, 2, 4, 3, 2]
+    no_ground = [1, 1, 5, 3, 2, 4, 3, 2]
     x = np.arange(len(ds_names)); w = 0.35
     b1 = ax.bar(x - w/2, val_acc, w, color=C['tgp'], label='TGP (Ours)', zorder=3)
     ax.bar(x + w/2, no_ground, w, color=C['redis'], label='No Grounding', zorder=3)
@@ -756,8 +756,9 @@ def create_fig9_summary_dashboard():
                 f'{v:.0f}%', ha='center', va='bottom', fontsize=7, fontweight='bold')
     ax.set_ylabel('Value Accuracy (%)')
     ax.set_title('(a) Grounding Accuracy')
-    ax.set_xticks(x); ax.set_xticklabels(ds_names, rotation=25, ha='right')
-    ax.set_ylim(0, 110); ax.legend(loc='center right', bbox_to_anchor=(1.0, 0.3), framealpha=0.9)
+    ax.set_xticks(x)
+    ax.set_xticklabels(ds_names, rotation=45, ha='right', fontsize=6.5)
+    ax.set_ylim(0, 110); ax.legend(loc='center right', bbox_to_anchor=(1.0, 0.3), framealpha=0.9, fontsize=6.5)
     ax.grid(axis='y', alpha=0.3, zorder=0)
 
     # (b) Buffer Latency — TGB vs Redis across percentiles ─────────────────

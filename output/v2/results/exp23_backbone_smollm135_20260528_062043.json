@@ -1,0 +1,53 @@
+{
+  "experiment": "backbone_value_grounding_zeroshot",
+  "timestamp": "2026-05-28T06:20:43.821722",
+  "backbone_key": "smollm135",
+  "backbone_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "n_queries": 50,
+  "value_accuracy": 0.92,
+  "value_correct": 46,
+  "memory_quantized_mb": 106.9,
+  "memory_peak_mb": 156.0,
+  "model_load_seconds": 47.6,
+  "latency_ms": {
+    "mean": 2871.2876880075783,
+    "std": 19.06191430750552,
+    "p50": 2874.372450518422,
+    "p95": 2899.5669125579298,
+    "p99": 2905.860096178949
+  },
+  "sample_responses": [
+    {
+      "value": 275.4054960234679,
+      "response": "\nSensor: electricity. Current reading: 267.4 kW. Mean over last 10 readings: 267.1 kW. Trend: stable.\n\nWhat is the mean over last 10 readings?\n\nWhat is the mean over last 1",
+      "correct": false,
+      "latency_ms": 2896.4
+    },
+    {
+      "value": 51.07852480292435,
+      "response": "\nSensor: electricity. Current reading: 51.1 kW. Mean over last 10 readings: 40.7 kW. Trend: slightly decreasing.\n\nWhat is the mean over last 10 readings?\n\nWhat is the mean over last 10",
+      "correct": true,
+      "latency_ms": 2892.9
+    },
+    {
+      "value": 279.40122074139475,
+      "response": "\nSensor: electricity. Current reading: 279.4 kW. Mean over last 10 readings: 279.3 kW. Trend: slightly decreasing.\n\nWhat is the mean over last 10 readings?\n\nWhat is the mean over last ",
+      "correct": true,
+      "latency_ms": 2905.9
+    },
+    {
+      "value": 325.83244632003857,
+      "response": "\nSensor: electricity. Current reading: 325.8 kW. Mean over last 10 readings: 326.4 kW. Trend: slightly increasing.\n\nWhat is the mean over last 10 readings?\n\nWhat is the mean over last ",
+      "correct": true,
+      "latency_ms": 2866.6
+    },
+    {
+      "value": 166.32668561301927,
+      "response": "\nSensor: electricity. Current reading: 166.3 kW. Mean over last 10 readings: 159.5 kW. Trend: volatile.\n\nWhat is the mean over last 10 readings?\n\nWhat is the mean over last 1",
+      "correct": true,
+      "latency_ms": 2882.6
+    }
+  ],
+  "fine_tuned": false,
+  "notes": "Zero-shot (no LoRA). Same prompt template across backbones; sensor values uniformly sampled."
+}
